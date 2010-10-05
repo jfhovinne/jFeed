@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jFeed - jQuery feed parser plugin - test</title>
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="src/jfeed.js"></script>
+<script type="text/javascript" src="src/jfeeditem.js"></script>
+<script type="text/javascript" src="src/jatom.js"></script>
+<script type="text/javascript" src="src/jrss.js"></script>
+
+<script type="text/javascript">
+
+jQuery(function() {
+
+    var feedsUrls = ['xml/rss-091.xml',
+                     'xml/rss-092.xml',
+                     'xml/rss-10.xml',
+                     'xml/rss-20.xml',
+                     'xml/atom.xml'];
+  
+    jQuery().ajaxError(function(request, settings, ex) {
+        console.log('Request error');
+        for(var i in ex) {
+            console.log(i + ': ' + ex[i]);
+        }
+    });
+                 
+    for(var i = 0; i < feedsUrls.length; i++) {
+
+        jQuery.getFeed({url: feedsUrls[i], success: function(feed) {
+        
+            console.log('feed type: ' + feed.type);
+            console.log('feed version: ' + feed.version);
+            console.log('feed title: ' + feed.title);
+            console.log('feed link: ' + feed.link);
+            console.log('feed description: ' + feed.description);
+            console.log('feed language: ' + feed.language);
+            console.log('feed updated: ' + feed.updated);
+            console.log('feed items: ' + feed.items.length);
+            
+            for(var j = 0; j < feed.items.length; j++) {
+            
+                console.log('item ' + j + ' title: ' + feed.items[j].title);
+                console.log('item ' + j + ' link: ' + feed.items[j].link);
+                console.log('item ' + j + ' description: '
+                + feed.items[j].description);
+                console.log('item ' + j + ' updated: ' + feed.items[j].updated);
+                console.log('item ' + j + ' id: ' + feed.items[j].id);
+            }
+        }
+        });
+    }
+});
+
+</script>
+
+</head>
+<body>
+<h1>jFeed - jQuery feed parser plugin - test</h1>
+<p>Please open Firefox + Firebug console</p>
+</body>
+</html>

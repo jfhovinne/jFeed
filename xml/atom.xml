@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="http://www.atomenabled.org/css/atom.css" type="text/css"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+<title type="html">AtomEnabled.org</title>
+<subtitle type="html">Your one stop shop for all Atom API and syndication information.</subtitle>
+
+<link href="http://www.atomenabled.org/atom.xml" rel="self"/>
+<icon>http://www.atomenabled.org/favicon.ico</icon>
+<link href="http://www.atomenabled.org" rel="alternate" title="AtomEnabled.org" type="text/html"/>
+<id>tag:blogger.com,1999:blog-6356614</id>
+<updated>2006-09-23T19:44:56Z</updated>
+
+<generator uri="http://www.blogger.com/" version="6.72">Blogger</generator>
+<div class="info" xmlns="http://www.w3.org/1999/xhtml">This is an Atom formatted XML site feed. It is intended to be viewed in a Newsreader or syndicated to another site. Please visit the <a href="http://help.blogger.com/bin/answer.py?answer=697">Blogger Help</a> for more info.</div>
+<convertLineBreaks xmlns="http://www.blogger.com/atom/ns#">false</convertLineBreaks>
+<entry xmlns="http://www.w3.org/2005/Atom">
+<author>
+<name>Sam Ruby</name>
+</author>
+<published>2006-09-23T12:42:00-07:00</published>
+<updated>2006-09-23T19:44:56Z</updated>
+
+<link href="http://www.atomenabled.org/2006/09/moving-toward-atom.php" rel="alternate" title="Moving Toward Atom" type="text/html"/>
+<id>tag:blogger.com,1999:blog-6356614.post-115904069601028798</id>
+<title type="html">Moving Toward Atom</title>
+<content type="xhtml" xml:base="http://www.atomenabled.org" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">The US Intelligence Community Metadata Working Group has issued a <a href="https://dnidata.org/education/xnotes/RSS_and_Atom_Considerations.xml">recommendation</a> that the Intelligence Community, over time, move toward adoption of Atom Syndication Format as the Community’s standard XML-based language for syndication feeds.</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://www.w3.org/2005/Atom">
+<author>
+
+<name>Sam Ruby</name>
+</author>
+<published>2006-08-04T13:50:00-07:00</published>
+<updated>2006-08-04T20:53:17Z</updated>
+<link href="http://www.atomenabled.org/2006/08/enabling-atom-10-on-wordpress.php" rel="alternate" title="Enabling Atom 1.0 on Wordpress" type="text/html"/>
+<id>tag:blogger.com,1999:blog-6356614.post-115472479762549620</id>
+<title type="html">Enabling Atom 1.0 on Wordpress</title>
+<content type="xhtml" xml:base="http://www.atomenabled.org" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">James Snell has <a href="http://www.snellspace.com/wp/?p=404">posted instructions</a> on how you can produce valid Atom 1.0 feeds with WordPress.</div>
+
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://www.w3.org/2005/Atom">
+<author>
+<name>Sam Ruby</name>
+</author>
+<published>2006-07-29T21:34:00-07:00</published>
+<updated>2006-07-30T04:38:20Z</updated>
+<link href="http://www.atomenabled.org/2006/07/tri-xml-2006-presentation.php" rel="alternate" title="Tri-XML 2006 presentation" type="text/html"/>
+<id>tag:blogger.com,1999:blog-6356614.post-115423429120046231</id>
+<title type="html">Tri-XML 2006 presentation</title>
+
+<content type="xhtml" xml:base="http://www.atomenabled.org" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<a href="http://rollerweblogger.org/page/roller">Dave Johnson</a> gave an <a href="http://rollerweblogger.org/page/roller?entry=tri_xml_2006_presentation">excellent talk</a> on the Atom feed format and Atom Publishing Protocol.  Here's the abstract:
+<blockquote>
+<span style="font-weight: bold;">Beyond blogging: Atom format and protocol</span>. Like XML-RPC and SOAP before, feeds and publishing protocols were born in the         blogopshere and quickly moved beyond blogging. Nowadays, web service providers are using         RSS/Atom feeds and REST-based publishing protocols as lightweight alternatives to SOAP. And         developers are finding new ways to combine web services from different sites into new         applications, known as "mash-ups" in the lingo of Web 2.0. If you'd like to do the same,         then attend this talk to learn about the new IETF Atom feed format (RFC-4287) and the         soon-to-be-finalized Atom protocol, which together form a strong foundation for REST-based         web services development.
+</blockquote>Check it out!</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+
+<entry xmlns="http://www.w3.org/2005/Atom">
+<author>
+<name>Sam Ruby</name>
+</author>
+<published>2006-07-19T14:39:00-07:00</published>
+<updated>2006-07-19T23:22:18Z</updated>
+<link href="http://www.atomenabled.org/2006/07/atomenabled-bloggers.php" rel="alternate" title="AtomEnabled Bloggers" type="text/html"/>
+<id>tag:blogger.com,1999:blog-6356614.post-115334590123672226</id>
+<title type="html">AtomEnabled Bloggers</title>
+<content type="xhtml" xml:base="http://www.atomenabled.org" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">The following <a href="http://www.blogger.com/">Blogger</a>-generated but independently hosted weblogs have upgraded to <a href="http://www.ietf.org/rfc/rfc4287">Atom 1.0</a>:<ul>
+
+<li>
+<a href="http://atomenabled.org/">AtomEnabled.org</a>
+</li>
+<li>
+<a href="http://ceciliaschola.org/">St. Cecilia Schola Cantorum</a>
+</li>
+<li>
+<a href="http://robweir.com/blog/">An Antic Disposition</a>
+</li>
+</ul>
+<p>If your have a blogger-generated but independently hosted weblog, and your host supports PHP, you too can be on this list.</p>
+<ol>
+<li>
+
+<p>
+<b>Install the script</b>
+</p>
+<p>
+<a href="http://intertwingly.net/stories/2006/04/27/atom.php">Download</a> the script, and upload as <code style="font-size: larger;">atom.php</code>.  This file should go in the same directory as your weblog.</p>
+</li>
+<li>
+<p>
+<b>Promote the new feed</b>
+</p>
+
+<p>This can be done in one of two ways:</p>
+<ol style="list-style-type: lower-alpha; list-style-image: none; list-style-position: outside;">
+<li>
+<p>
+<b>Redirect</b>
+</p>
+<p>This is the most complete and comprehensive approach, however not all hosting providers allow users this level of control over the web server.  If yours does, try adding the following to a file named <code style="font-size: larger;">.htaccess</code> to the same directory that you placed the <code style="font-size: larger;">atom.php</code>:</p>
+<pre style="font-size: larger; margin-left: 3em;">Redirect atom.xml http://<em>your.host.name</em>/<em>path-to-blog</em>/atom.php</pre>
+
+<p>
+<b>Notes:</b> these instructions are for the Apache Web Server.  Instructions for other web servers, including Microsoft's IIS will differ.  You will need to tailor <em>your.host.name</em> and <em>path-to-blog</em>.</p>
+</li>
+<li>
+<p>
+<b>Advertise</b>
+</p>
+<p>The other approach is to direct your existing and new subscribers to this new feed.  Mention the change on your weblog.  Update your auto-discovery and other links.  To update your links, go into Settings / Site Feed (pictured below)<a href="http://www.atomenabled.org/uploaded_images/BloggerSiteSettings-767978.png" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"/>
+
+</p>
+<a href="http://www.atomenabled.org/uploaded_images/BloggerSiteSettings-767978.png" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}">
+<img alt="Blogger Site Settings" border="0" src="http://www.atomenabled.org/uploaded_images/BloggerSiteSettings-756299.png" style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;"/>
+</a>
+<p>Once you have navigated to that page, change the <b>Site Feed URL</b> to read:</p>
+<pre style="font-size: larger; margin-left: 3em;">http://<em>your.host.name</em>/<em>path-to-blog</em>/atom.php</pre>
+<p>
+<b>Notes:</b> You will need to tailor <em>your.host.name</em> and <em>path-to-blog</em>.  You may also have other references on your template that need to be updated.  Once complete, republish your blog via the Posting / Status tab.</p>
+
+</li>
+</ol>
+</li>
+</ol>
+<p>If you have another Blogger produced site that has upgraded to Atom 1.0, feel free to leave a pointer to your site on the <a href="http://www.intertwingly.net/wiki/pie/AtomEnabledBloggers">Atom wiki</a>.  Once your feed has been verified, this weblog post will be updated.</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://www.w3.org/2005/Atom">
+<author>
+<name>Sam Ruby</name>
+
+</author>
+<published>2005-09-15T06:27:00-07:00</published>
+<updated>2005-09-15T13:33:06Z</updated>
+<link href="http://www.atomenabled.org/2005/09/atomenableds-atom-feed.php" rel="alternate" title="AtomEnabled's Atom Feed" type="text/html"/>
+<id>tag:blogger.com,1999:blog-6356614.post-112679118686717868</id>
+<title type="html">AtomEnabled's Atom Feed</title>
+<content type="xhtml" xml:base="http://www.atomenabled.org" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">This site's <a href="http://www.atomenabled.org/atom.xml">Atom feed</a> has been converted to Atom 1.0.  Addionally, the Feed Validator is <a href="http://feedvalidator.org/news/archives/2005/09/15/atom_03_deprecated.html">now issuing deprecation warnings</a> whenever it encounters Atom 0.3 feeds.</div>
+
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+</feed>
