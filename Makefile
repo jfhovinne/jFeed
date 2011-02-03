@@ -37,4 +37,4 @@ archive: pack
 	@@echo "Building" ${WE_ARCH}
 
 	@@echo " - Creating archive"
-	@@tar -C .. -czf ${WE_ARCH} --exclude '.svn' jfeed
+	@@tar -C .. -czf ${WE_ARCH} --exclude '.git' jFeed
