@@ -10,7 +10,9 @@ jQuery.getFeed = function(options) {
 
         url: null,
         data: null,
-        success: null
+        cache: true,
+        success: null,
+        failure: null
 
     }, options);
 
@@ -20,6 +22,7 @@ jQuery.getFeed = function(options) {
             type: 'GET',
             url: options.url,
             data: options.data,
+            cache: options.cache,
             dataType: (jQuery.browser.msie) ? "text" : "xml",
             success: function(xml) {
                 var feed = new JFeed(xml);
