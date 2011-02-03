@@ -7,31 +7,38 @@
 jQuery.getFeed = function(options) {
 
     options = jQuery.extend({
-    
+
         url: null,
         data: null,
-        success: null
-        
+        cache: true,
+        success: null,
+        failure: null
+
     }, options);
 
-    if(options.url) {
+    if (options.url) {
 
         $.ajax({
             type: 'GET',
             url: options.url,
             data: options.data,
-            dataType: 'xml',
+            cache: options.cache,
+            dataType: (jQuery.browser.msie) ? "text" : "xml",
             success: function(xml) {
                 var feed = new JFeed(xml);
-                if(jQuery.isFunction(options.success)) options.success(feed);
+                if (jQuery.isFunction(options.success)) options.success(feed);
+            },
+            error: function (xhr, msg, e) {
+                if (jQuery.isFunction(options.failure)) options.failure(msg, e);
             }
         });
     }
 };
 
 function JFeed(xml) {
-    if(xml) this.parse(xml);
-};
+    if (xml) this.parse(xml);
+}
+;
 
 JFeed.prototype = {
 
@@ -41,19 +48,25 @@ JFeed.prototype = {
     link: '',
     description: '',
     parse: function(xml) {
-        
-        if(jQuery('channel', xml).length == 1) {
-        
+
+        if (jQuery.browser.msie) {
+            var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+            xmlDoc.loadXML(xml);
+            xml = xmlDoc;
+        }
+
+        if (jQuery('channel', xml).length == 1) {
+
             this.type = 'rss';
             var feedClass = new JRss(xml);
 
-        } else if(jQuery('feed', xml).length == 1) {
-        
+        } else if (jQuery('feed', xml).length == 1) {
+
             this.type = 'atom';
             var feedClass = new JAtom(xml);
         }
-        
-        if(feedClass) jQuery.extend(this, feedClass);
+
+        if (feedClass) jQuery.extend(this, feedClass);
     }
 };
 
