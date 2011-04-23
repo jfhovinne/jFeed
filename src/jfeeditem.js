@@ -6,6 +6,7 @@ JFeedItem.prototype = {
     link: '',
     description: '',
     updated: '',
-    id: ''
+    id: '',
+    geometry: ''
 };
 
