@@ -64,7 +64,7 @@ JFeed.prototype = {
           var activityStream = jQuery('feed:first', xml).attr('xmlns:activity');
           if (activityStream && activityStream === "http://activitystrea.ms/spec/1.0/") {
             this.type = 'activityStream';
-            var feedClass = new JActivityStream(xml); 
+            var feedClass = new JActivityStream(xml, this); 
           } else {
             this.type = 'atom';
             var feedClass = new JAtom(xml); 
@@ -72,6 +72,17 @@ JFeed.prototype = {
         }
 
         if (feedClass) jQuery.extend(this, feedClass);
+    },
+    
+    grab: function(attr, scope, text) {
+      text = typeof(text) === "undefined" ? true : text;
+      var node = scope.find(attr).eq(0);
+      if (text) {
+        return node.text();
+      } else {
+        // returns the first jquery node instead of the text
+        return node;
+      }
     }
 };
 

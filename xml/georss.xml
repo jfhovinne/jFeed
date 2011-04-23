@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
+  <title>Search Results from DataWarehouse.HRSA.gov</title>
+  <link rel="self" href="http://datawarehouse.hrsa.gov"/>
+  <link rel="alternate" href="http://datawarehouse.hrsa.gov/"/>
+  <author>
+    <name>HRSA Geospatial Data Warehouse</name>
+  </author>
+  <id>tag:datawarehouse.hrsa.gov,2010-04-05:/</id>
+  <updated>2010-04-05T19:25:28-05:00</updated>
+  <entry>
+    <title>Christ House</title>
+    <link href="http://www.christhouse.org" />
+    <id>tag:datawarehouse.hrsa.gov,2010-04-05:/D388C4C6-FFA4-4091-819B-64D67DC64931</id>
+    <summary type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <div class="vcard">
+          <div class="fn org">Christ House</div>
+          <div class="adr">
+            <div class="street-address">1717 Columbia Rd. N.W.</div>            <span class="locality">Washington</span>,            <span class="region">District of Columbia</span>,            <span class="postal-code">20009-2803</span>
+          </div>
+          <div class="tel">202-328-1100</div>
+        </div>
+        <div>
+          Categories:          <span class="category">Service Delivery Site</span>
+        </div>
+      </div>
+    </summary>
+    <georss:point>38.9243636363636 -77.0395636363637</georss:point>
+    <updated>2010-04-04T00:00:00-05:00</updated>
+  </entry>
+</feed>

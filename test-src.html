@@ -7,6 +7,7 @@
 <script type="text/javascript" src="jquery/jquery.js"></script>
 <script type="text/javascript" src="src/jfeed.js"></script>
 <script type="text/javascript" src="src/jfeeditem.js"></script>
+<script type="text/javascript" src="src/jactivitystream.js"></script>
 <script type="text/javascript" src="src/jatom.js"></script>
 <script type="text/javascript" src="src/jrss.js"></script>
 
@@ -18,7 +19,9 @@ jQuery(function() {
                      'xml/rss-092.xml',
                      'xml/rss-10.xml',
                      'xml/rss-20.xml',
-                     'xml/atom.xml'];
+                     'xml/atom.xml',
+                     'xml/activitystream.xml',
+                     'xml/georss.xml'];
   
     jQuery().ajaxError(function(request, settings, ex) {
         console.log('Request error');
@@ -30,25 +33,7 @@ jQuery(function() {
     for(var i = 0; i < feedsUrls.length; i++) {
 
         jQuery.getFeed({url: feedsUrls[i], success: function(feed) {
-        
-            console.log('feed type: ' + feed.type);
-            console.log('feed version: ' + feed.version);
-            console.log('feed title: ' + feed.title);
-            console.log('feed link: ' + feed.link);
-            console.log('feed description: ' + feed.description);
-            console.log('feed language: ' + feed.language);
-            console.log('feed updated: ' + feed.updated);
-            console.log('feed items: ' + feed.items.length);
-            
-            for(var j = 0; j < feed.items.length; j++) {
-            
-                console.log('item ' + j + ' title: ' + feed.items[j].title);
-                console.log('item ' + j + ' link: ' + feed.items[j].link);
-                console.log('item ' + j + ' description: '
-                + feed.items[j].description);
-                console.log('item ' + j + ' updated: ' + feed.items[j].updated);
-                console.log('item ' + j + ' id: ' + feed.items[j].id);
-            }
+          console.log(JSON.stringify(feed));
         }
         });
     }
