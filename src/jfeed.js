@@ -61,9 +61,14 @@ JFeed.prototype = {
             var feedClass = new JRss(xml);
 
         } else if (jQuery('feed', xml).length == 1) {
-
+          var activityStream = jQuery('feed:first', xml).attr('xmlns:activity');
+          if (activityStream && activityStream === "http://activitystrea.ms/spec/1.0/") {
+            this.type = 'activityStream';
+            var feedClass = new JActivityStream(xml); 
+          } else {
             this.type = 'atom';
-            var feedClass = new JAtom(xml);
+            var feedClass = new JAtom(xml); 
+          }
         }
 
         if (feedClass) jQuery.extend(this, feedClass);

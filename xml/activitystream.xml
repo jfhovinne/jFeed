@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Author:       Ade Oshineye
+-->
+<!--
+  Description:  Example atom feed with an activity stream embedded
+-->
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:activity="http://activitystrea.ms/spec/1.0/">
+  <title>Example Feed</title> 
+  <subtitle>example data</subtitle>
+  <link href="http://example.org/"/>
+  <updated>2003-12-13T18:30:02Z</updated>
+  <author> 
+    <name>John Doe</name>
+  </author> 
+  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+<entry>
+   <id>tag:photopanic.example.com,2008:activity01</id>
+   <title>Geraldine posted a Photo on PhotoPanic</title>
+   <published>2008-11-02T15:29:00Z</published>
+   <updated>2009-07-28T11:00:00Z</updated>
+   <link rel="alternate" type="text/html"
+     href="http://example.com/geraldine/activities/1" />
+   <activity:verb>
+      http://activitystrea.ms/schema/1.0/post
+   </activity:verb>
+   <activity:object>
+      <id>tag:photopanic.example.com,2008:photo01</id>
+      <title>My Cat</title>
+      <published>2008-11-02T15:29:00Z</published>
+      <link rel="alternate" type="text/html"
+        href="http://example.com/geraldine/photos/1" />
+      <activity:object-type>
+          tag:atomactivity.example.com,2008:photo
+      </activity:object-type>
+      <source>
+          <title>Geraldine's Photos</title>
+          <link rel="self" type="application/atom+xml"
+            href="http://example.com/geraldine/photofeed.xml" />
+          <link rel="alternate" type="text/html"
+            href="http://example.com/geraldine/" />
+      </source>
+   </activity:object>
+   <content type="html">
+       &lt;p&gt;Geraldine posted a Photo on PhotoPanic&lt;/p&gt;
+       &lt;img src="/geraldine/photo1.jpg"&gt;
+   </content>
+</entry>
+</feed>
