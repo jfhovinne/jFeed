@@ -3,7 +3,8 @@
  * Dual licensed under the MIT (MIT-license.txt)
  * and GPL (GPL-license.txt) licenses.
  */
-
+(function( window, undefined ) {
+  
 jQuery.getFeed = function(options) {
 
     options = jQuery.extend({
@@ -86,3 +87,7 @@ JFeed.prototype = {
     }
 };
 
+// Expose jQuery to the global object
+window.JFeed = JFeed;
+
+})(window);
