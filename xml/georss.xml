@@ -1,32 +1,1214 @@
-<?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
-  <title>Search Results from DataWarehouse.HRSA.gov</title>
-  <link rel="self" href="http://datawarehouse.hrsa.gov"/>
-  <link rel="alternate" href="http://datawarehouse.hrsa.gov/"/>
-  <author>
-    <name>HRSA Geospatial Data Warehouse</name>
-  </author>
-  <id>tag:datawarehouse.hrsa.gov,2010-04-05:/</id>
-  <updated>2010-04-05T19:25:28-05:00</updated>
-  <entry>
-    <title>Christ House</title>
-    <link href="http://www.christhouse.org" />
-    <id>tag:datawarehouse.hrsa.gov,2010-04-05:/D388C4C6-FFA4-4091-819B-64D67DC64931</id>
-    <summary type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <div class="vcard">
-          <div class="fn org">Christ House</div>
-          <div class="adr">
-            <div class="street-address">1717 Columbia Rd. N.W.</div>            <span class="locality">Washington</span>,            <span class="region">District of Columbia</span>,            <span class="postal-code">20009-2803</span>
-          </div>
-          <div class="tel">202-328-1100</div>
-        </div>
-        <div>
-          Categories:          <span class="category">Service Delivery Site</span>
-        </div>
-      </div>
-    </summary>
-    <georss:point>38.9243636363636 -77.0395636363637</georss:point>
-    <updated>2010-04-04T00:00:00-05:00</updated>
-  </entry>
-</feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <title>SeeClickFix</title>
+    <description>Issues near LOCATION</description>
+    <link>http://seeclickfix.com/issues.rss</link>
+    <atom:link href="http://seeclickfix.com/issues.rss" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Can't Turn Left</title>
+      <link>http://bit.ly/hSP8ZC</link>
+      <description>Address: 11001 Bren Rd E Hopkins, MN 55343, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Left turn from Bren Rd E to Bren Rd W is nearly impossible without swerving around a deep pothole.  Responsible for one flat tire.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 02:53:02 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96914.html</guid>
+      <georss:point>44.8999029729837 -93.4159970283508</georss:point>
+      <geo:lat>44.8999029729837</geo:lat>
+      <geo:long>-93.4159970283508</geo:long>
+    </item>
+    <item>
+      <title>Speeders</title>
+      <link>http://bit.ly/dUGD46</link>
+      <description>Address: 23 E Chelton Rd Parkside, PA 19015, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Unit block of E Chelton needs to get speed bumps installed because the people speed down our street with NO concern for our children. We have too many children on our block. Watch out, you may KILL ONE. &lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 02:17:49 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96913.html</guid>
+      <georss:point>39.8679828880594 -75.3774547576904</georss:point>
+      <geo:lat>39.8679828880594</geo:lat>
+      <geo:long>-75.3774547576904</geo:long>
+    </item>
+    <item>
+      <title>Court light </title>
+      <link>http://bit.ly/exPc7B</link>
+      <description>Address: 8231 Stewarton Court Severn, MD&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Court light outage, last 3 days&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 02:06:46 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96912.html</guid>
+      <georss:point>39.1167737 -76.7106197</georss:point>
+      <geo:lat>39.1167737</geo:lat>
+      <geo:long>-76.7106197</geo:long>
+    </item>
+    <item>
+      <title>very rough road</title>
+      <link>http://bit.ly/gaauwe</link>
+      <description>Address: 7767-8003 Chestnut Hill Church Rd Coopersburg, PA 18036, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:48:55 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96911.html</guid>
+      <georss:point>40.4751910510356 -75.452299118042</georss:point>
+      <geo:lat>40.4751910510356</geo:lat>
+      <geo:long>-75.452299118042</geo:long>
+    </item>
+    <item>
+      <title>patches over patches</title>
+      <link>http://bit.ly/eSGFg5</link>
+      <description>Address: 7767-8003 Chestnut Hill Church Rd Coopersburg, PA 18036, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:47:38 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96910.html</guid>
+      <georss:point>40.4735587737495 -75.4525136947632</georss:point>
+      <geo:lat>40.4735587737495</geo:lat>
+      <geo:long>-75.4525136947632</geo:long>
+    </item>
+    <item>
+      <title>roadway coming apart</title>
+      <link>http://bit.ly/fovGBJ</link>
+      <description>Address: 3400-3556 State Route 2031 Lower Milford, PA 18092, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:45:53 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96909.html</guid>
+      <georss:point>40.4743422717988 -75.470666885376</georss:point>
+      <geo:lat>40.4743422717988</geo:lat>
+      <geo:long>-75.470666885376</geo:long>
+    </item>
+    <item>
+      <title>Graffitti on Garage</title>
+      <link>http://bit.ly/ef1Yg6</link>
+      <description>Address: 451 Normandie Pl Los Angeles, CA 90004, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Garage seems to get hit often (?) by taggers. Even the aged Google street view map shows different tags.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:44:12 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96908.html</guid>
+      <georss:point>34.0795335471388 -118.30127209425</georss:point>
+      <geo:lat>34.0795335471388</geo:lat>
+      <geo:long>-118.30127209425</geo:long>
+    </item>
+    <item>
+      <title>giant potholes </title>
+      <link>http://bit.ly/i1LWMN</link>
+      <description>Address: Hunter Forge Rd hereford, PA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:35:22 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96907.html</guid>
+      <georss:point>40.4506865 -75.6164585</georss:point>
+      <geo:lat>40.4506865</geo:lat>
+      <geo:long>-75.6164585</geo:long>
+    </item>
+    <item>
+      <title>Venice Blvd pavement in need of repair</title>
+      <link>http://bit.ly/eLUq67</link>
+      <description>Address: Venice And Sawtelle Los Angeles, CA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The pavement at the intersection of Venice and Sawtelle is in need of repair.  In particular, the eastbound lanes of Venice just East of Sawtelle have deep grooves and gouges.  Please re-pave!&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:32:01 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96906.html</guid>
+      <georss:point>34.0115178 -118.4197826</georss:point>
+      <geo:lat>34.0115178</geo:lat>
+      <geo:long>-118.4197826</geo:long>
+    </item>
+    <item>
+      <title>road in desperate need of repair</title>
+      <link>http://bit.ly/dGPoZO</link>
+      <description>Address: Main St fleetwood, PA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:28:26 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96905.html</guid>
+      <georss:point>40.4549613 -75.8164888</georss:point>
+      <geo:lat>40.4549613</geo:lat>
+      <geo:long>-75.8164888</geo:long>
+    </item>
+    <item>
+      <title>road needs to be paved</title>
+      <link>http://bit.ly/hisMeq</link>
+      <description>Address: Plover Rd coopersburg, PA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 01:21:53 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96904.html</guid>
+      <georss:point>40.4690737 -75.4556424</georss:point>
+      <geo:lat>40.4690737</geo:lat>
+      <geo:long>-75.4556424</geo:long>
+    </item>
+    <item>
+      <title>One of many broad, deep, dangerous potholes on Tucson Blvd north of Grant</title>
+      <link>http://bit.ly/ev0hWY</link>
+      <description>Address: 2540 N. Tucson Blvd. Tucson, AZ 85716, USA&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Grant Road, especially east of Campbell, and Tucson Blvd north of Grant, have many large potholes.  Both streets are turning into obstacle courses.  This report is being submitted by Ward 6 staff.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:42:11 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96903.html</guid>
+      <georss:point>32.25307 -110.934941</georss:point>
+      <geo:lat>32.25307</geo:lat>
+      <geo:long>-110.934941</geo:long>
+    </item>
+    <item>
+      <title>Street Light</title>
+      <link>http://bit.ly/gv7k6r</link>
+      <description>Address: 884 State St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:28:04 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96902.html</guid>
+      <georss:point>41.3138519 -72.9124877</georss:point>
+      <geo:lat>41.3138519</geo:lat>
+      <geo:long>-72.9124877</geo:long>
+    </item>
+    <item>
+      <title>Overgrown Weeds</title>
+      <link>http://bit.ly/hmBV8g</link>
+      <description>Address: 2085 Fulton Rd Santa Rosa, CA 95401, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Weeds are overgrowing blocking sidewalks.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:25:24 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96901.html</guid>
+      <georss:point>38.4715496962646 -122.769770622253</georss:point>
+      <geo:lat>38.4715496962646</geo:lat>
+      <geo:long>-122.769770622253</geo:long>
+    </item>
+    <item>
+      <title>Pothole party</title>
+      <link>http://bit.ly/g9z0ix</link>
+      <description>Address: 1513 18th Ave Ne Minneapolis, MN 55418, USA&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Many potholes on 18th Ave NE, particularly headed westbound immediately after Johnson.  There are also some in the intersection itself.
+&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:23:37 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96900.html</guid>
+      <georss:point>45.0059875816023 -93.2374906539917</georss:point>
+      <geo:lat>45.0059875816023</geo:lat>
+      <geo:long>-93.2374906539917</geo:long>
+    </item>
+    <item>
+      <title>Trash</title>
+      <link>http://bit.ly/e4XX9X</link>
+      <description>Address:  Mastic Beach, NY&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Between exits 52 and William Floyd on Rt 27 the trash along the roadside is awful.  Please do something about it.  It makes our area look like the slums.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:13:57 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96899.html</guid>
+      <georss:point>40.7667655 -72.8520476</georss:point>
+      <geo:lat>40.7667655</geo:lat>
+      <geo:long>-72.8520476</geo:long>
+    </item>
+    <item>
+      <title>Potholes by 94E entrance</title>
+      <link>http://bit.ly/faWS0T</link>
+      <description>Address: 1936-1970 Bryant Ave S Minneapolis, MN 55405, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+There are a lot of potholes on the entrance ramp to 94E right after the the light on the northbound side of Hennepin.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:11:34 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96898.html</guid>
+      <georss:point>44.9636440726907 -93.2902336120605</georss:point>
+      <geo:lat>44.9636440726907</geo:lat>
+      <geo:long>-93.2902336120605</geo:long>
+    </item>
+    <item>
+      <title>Multiple Potholes on Wayzata Blvd</title>
+      <link>http://bit.ly/fHoIho</link>
+      <description>Address: 11100 Wayzata Blvd Wayzata, MN 55391, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+There are multiple potholes at the bottom of the hill, mostly on the westbound side of Wayzata Blvd by the pond.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:05:16 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96897.html</guid>
+      <georss:point>44.9705061477474 -93.4769153594971</georss:point>
+      <geo:lat>44.9705061477474</geo:lat>
+      <geo:long>-93.4769153594971</geo:long>
+    </item>
+    <item>
+      <title>potholes near 494 north </title>
+      <link>http://bit.ly/e7TMki</link>
+      <description>Address: Carlson Pkwy N Plymouth, MN 55441, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+There are many large potholes around the entrance to 494 north on Carlson Pkwy N.  There are also numerous potholes by the lights at that intersection, particularly on the the northbound side of Carlson PkwyN.&lt;/p&gt;</description>
+      <pubDate>Sun, 24 Apr 2011 00:01:59 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96896.html</guid>
+      <georss:point>44.9838028764261 -93.458890914917</georss:point>
+      <geo:lat>44.9838028764261</geo:lat>
+      <geo:long>-93.458890914917</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/ih5ie9</link>
+      <description>Address: 186-198 Humphrey St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Lots of tags facing park on overpass wall&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 22:39:05 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96894.html</guid>
+      <georss:point>41.3134366 -72.9105338</georss:point>
+      <geo:lat>41.3134366</geo:lat>
+      <geo:long>-72.9105338</geo:long>
+    </item>
+    <item>
+      <title>Road debris</title>
+      <link>http://bit.ly/g4k9u4</link>
+      <description>Address: 6301-6399 State Road 2000 Raleigh, NC 27609, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Sand or fine gravel in roadway. Could be dangerous for motorcycles. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 22:39:03 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96893.html</guid>
+      <georss:point>35.8683518 -78.6209864</georss:point>
+      <geo:lat>35.8683518</geo:lat>
+      <geo:long>-78.6209864</geo:long>
+    </item>
+    <item>
+      <title>Deep pothole in northbound Clarendon</title>
+      <link>http://bit.ly/gYio8g</link>
+      <description>Address: 405 N Clarendon Ave Scottdale, GA 30079, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+There is a 1 foot wide and 2 foot deep sinkhole in the Northbound lane of Clarendon (near 385 Clarendon) that is more of a chasm than a pothole. You can see an exposed sewer pipe &amp; is deep enough to do serious damage to a motorcycle or a scooter wheel. If it gets any wider, car axles will get broken.  &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 22:16:48 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96892.html</guid>
+      <georss:point>33.786887517116 -84.2634201049805</georss:point>
+      <geo:lat>33.786887517116</geo:lat>
+      <geo:long>-84.2634201049805</geo:long>
+    </item>
+    <item>
+      <title>Pothole</title>
+      <link>http://bit.ly/gkUC1B</link>
+      <description>Address: 4611 14 St Nw Calgary, AB T2K 1J7, Canada&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Deadly pothole after the hill crests and begins to descend to the right.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 22:14:20 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96891.html</guid>
+      <georss:point>51.0936851688056 -114.094905853271</georss:point>
+      <geo:lat>51.0936851688056</geo:lat>
+      <geo:long>-114.094905853271</geo:long>
+    </item>
+    <item>
+      <title>multiple potholes</title>
+      <link>http://bit.ly/hlDv10</link>
+      <description>Address: 950-952 S Braddock Ave Wilkinsburg, PA 15221, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The whole section of S Braddock Ave from the parkway heading thru Reagent Square is always horrible in both directions,no matter what time of year.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:54:03 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96889.html</guid>
+      <georss:point>40.4345355405265 -79.8954105377197</georss:point>
+      <geo:lat>40.4345355405265</geo:lat>
+      <geo:long>-79.8954105377197</geo:long>
+    </item>
+    <item>
+      <title>Major potholes</title>
+      <link>http://bit.ly/ik02IN</link>
+      <description>Address: 5430-5434 Wilkins Ave Pittsburgh, PA 15217, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+section of road heading toward 5th ave has been torn up for years.  would like it to be fixed one day so that drivers dont have to slam on brakes or head into on comming traffic to avoid.  I would like to get my wheel alignment fixed and enjoy it for more then a week at a time!&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:50:50 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96888.html</guid>
+      <georss:point>40.4460979234305 -79.9322748184204</georss:point>
+      <geo:lat>40.4460979234305</geo:lat>
+      <geo:long>-79.9322748184204</geo:long>
+    </item>
+    <item>
+      <title>pothole</title>
+      <link>http://bit.ly/f83yIS</link>
+      <description>Address: 3941 Se California Ave Topeka, KS 66609, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+There is a pothole in the southbound lane around 3941 S.E. Cal.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:50:48 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96887.html</guid>
+      <georss:point>38.9955816392771 -95.651650428772</georss:point>
+      <geo:lat>38.9955816392771</geo:lat>
+      <geo:long>-95.651650428772</geo:long>
+    </item>
+    <item>
+      <title>Pothole</title>
+      <link>http://bit.ly/gPYLRN</link>
+      <description>Address: 4001 Se California Ave Topeka, KS 66609, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Pothole in southbound lane around the &quot;Don't drink and drive&quot; memorial sign.  Also one in the northbound lane by the south driveway for 4001 SE Cal.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:50:33 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96886.html</guid>
+      <georss:point>38.9944476088433 -95.6516289710999</georss:point>
+      <geo:lat>38.9944476088433</geo:lat>
+      <geo:long>-95.6516289710999</geo:long>
+    </item>
+    <item>
+      <title>Big Pothole</title>
+      <link>http://bit.ly/h9x7Pp</link>
+      <description>Address: 627 S Main St Torrington, CT 06790, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+There is a big pothole at the bottom of Lincoln ave. it needs to be fixed before it does major damage to a car.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:47:07 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96885.html</guid>
+      <georss:point>41.787558011753 -73.1179082393646</georss:point>
+      <geo:lat>41.787558011753</geo:lat>
+      <geo:long>-73.1179082393646</geo:long>
+    </item>
+    <item>
+      <title>Barking dog</title>
+      <link>http://bit.ly/i71Pko</link>
+      <description>Address: 233 Summit Ave Glenolden, PA 19036, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Someone lets there dog outside and it is always barking. I understand the dog needs to get outside and run but good god stop the thing from barking all the time. I should not have to listen to this whenever I am outside enjoying a nice day. To top it all off it's a yappy dog at that.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:44:40 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96884.html</guid>
+      <georss:point>39.896402953509 -75.2999711036682</georss:point>
+      <geo:lat>39.896402953509</geo:lat>
+      <geo:long>-75.2999711036682</geo:long>
+    </item>
+    <item>
+      <title>Street Lights out</title>
+      <link>http://bit.ly/dSVUsh</link>
+      <description>Address: 5809 Sonora Dr North Little Rock, AR 72118, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Hello, we have about 4 or 5 street lights on my block that are out. The whole block is dark, please fix. Thanks&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:43:36 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96883.html</guid>
+      <georss:point>34.8066416955319 -92.2976070642471</georss:point>
+      <geo:lat>34.8066416955319</geo:lat>
+      <geo:long>-92.2976070642471</geo:long>
+    </item>
+    <item>
+      <title>Johnson &amp; 13th Ave, Stop signs ignored</title>
+      <link>http://bit.ly/fuYuDu</link>
+      <description>Address: 914 N 13th Terrace Hollywood, FL 33019, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Drivers continually cruise thru the 4 way Stop located at Johnson &amp; 13th Ave.  This is prevalent primarily in the AM/PM commuting hours.  Please have the Police take an active (ticketing) approach at this location.  This intersection is very busy and pedestrians &amp; bicyclists safety is at risk due to cars running the Stop signs.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:29:45 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96882.html</guid>
+      <georss:point>26.019803 -80.133967</georss:point>
+      <geo:lat>26.019803</geo:lat>
+      <geo:long>-80.133967</geo:long>
+    </item>
+    <item>
+      <title>Handicapped or Other ADA Issues</title>
+      <link>http://bit.ly/fouzdW</link>
+      <description>Address: 62 Grant St Newark, OH 43055, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+ADA sidewalk ramp was removed but no curb was poured to abut sidewalk.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:28:11 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96881.html</guid>
+      <georss:point>40.0473327515937 -82.4238163232803</georss:point>
+      <geo:lat>40.0473327515937</geo:lat>
+      <geo:long>-82.4238163232803</geo:long>
+    </item>
+    <item>
+      <title>exit lights</title>
+      <link>http://bit.ly/f5RLC5</link>
+      <description>Address: 9th Street Exit Coming Off I-30 West Bound &lt;br/&gt;
+Rating: 1&lt;p&gt;
+exit 140 A 9th street and I-30 exit is very dark the overhead lights are out and have been for quite some time now .&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:22:08 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96880.html</guid>
+      <georss:point>34.7399197690882 -92.2645568847656</georss:point>
+      <geo:lat>34.7399197690882</geo:lat>
+      <geo:long>-92.2645568847656</geo:long>
+    </item>
+    <item>
+      <title>pothole post-winter 3rd &amp; Federal</title>
+      <link>http://bit.ly/fUH8KQ</link>
+      <description>Address: 301-399 Federal St Philadelphia, PA 19147, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Gravel placed last year is again out and hole is bigger this year. Please fill but not just with gravel because that lasts not even a year and then it's a mess I/we have to clean up and the hole is just back again. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:21:40 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96879.html</guid>
+      <georss:point>39.933135 -75.14967</georss:point>
+      <geo:lat>39.933135</geo:lat>
+      <geo:long>-75.14967</geo:long>
+    </item>
+    <item>
+      <title>Pothole</title>
+      <link>http://bit.ly/dYpBgq</link>
+      <description>Address: 2105-2167 5 Mile Rd Traverse City, MI 49686, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:06:54 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96878.html</guid>
+      <georss:point>44.7153063586489 -85.5113124847412</georss:point>
+      <geo:lat>44.7153063586489</geo:lat>
+      <geo:long>-85.5113124847412</geo:long>
+    </item>
+    <item>
+      <title>1006 N 13th Terrace, cars parked in the front yard</title>
+      <link>http://bit.ly/hEOtUA</link>
+      <description>Address: 906 N 13th Terrace Hollywood, FL 33019, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Residents at 1006 N 13th Terrace are parking their vehicle in the front yard (Kia Sedona).  There is room in the driveway however they have a basketball hoop up for their children so the car is parked in the front yard.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:02:21 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96877.html</guid>
+      <georss:point>26.019516 -80.133802</georss:point>
+      <geo:lat>26.019516</geo:lat>
+      <geo:long>-80.133802</geo:long>
+    </item>
+    <item>
+      <title>barking dogs</title>
+      <link>http://bit.ly/eFfb0e</link>
+      <description>Address: Rively Ave Glenolden, PA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+
+Barking dogs all day and night . Owners do nothing to quiet the dogs. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:59:54 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96876.html</guid>
+      <georss:point>39.9137116 -75.2949996</georss:point>
+      <geo:lat>39.9137116</geo:lat>
+      <geo:long>-75.2949996</geo:long>
+    </item>
+    <item>
+      <title>What about pedestrians?</title>
+      <link>http://bit.ly/gNle79</link>
+      <description>Address: 401 4th Ave S Minneapolis, MN 55415, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+I agree that the potholes this year are really horrid around town, but MPR, can you PLEASE occasionally pay attention to non-car transportation? &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:57:40 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96875.html</guid>
+      <georss:point>44.9769423923136 -93.2639694213867</georss:point>
+      <geo:lat>44.9769423923136</geo:lat>
+      <geo:long>-93.2639694213867</geo:long>
+    </item>
+    <item>
+      <title>Pothole</title>
+      <link>http://bit.ly/eSDDEb</link>
+      <description>Address: 3314-3398 5 Mile Rd Traverse City, MI 49686, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:53:50 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96874.html</guid>
+      <georss:point>44.7342657508964 -85.5187368392944</georss:point>
+      <geo:lat>44.7342657508964</geo:lat>
+      <geo:long>-85.5187368392944</geo:long>
+    </item>
+    <item>
+      <title>Trash/Bulk Pick-ups</title>
+      <link>http://bit.ly/ghnzxC</link>
+      <description>Address: 727 N 27th St Alley Richmond, VA&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Please remove box spring from back alley that runs behind 727N 27th St adjacent to open park/field.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:53:34 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96873.html</guid>
+      <georss:point>37.5448466 -77.4111827</georss:point>
+      <geo:lat>37.5448466</geo:lat>
+      <geo:long>-77.4111827</geo:long>
+    </item>
+    <item>
+      <title>dumped cuttings</title>
+      <link>http://bit.ly/g48DfF</link>
+      <description>Address: 2298 Bancroft Ave Los Angeles, CA 90039, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+someone dumped cuttings about 3 weeks ago..iti is a significnat road hazard....perhaps city maint will pick it up?? thanks&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:49:01 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96872.html</guid>
+      <georss:point>34.0978425 -118.2565902</georss:point>
+      <geo:lat>34.0978425</geo:lat>
+      <geo:long>-118.2565902</geo:long>
+    </item>
+    <item>
+      <title>Pothole</title>
+      <link>http://bit.ly/ff6Dgx</link>
+      <description>Address: 3302-3498 Hammond Rd E Traverse City, MI 49686, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+This section and Hammond &amp; 5 Mile Rd. are the worst locations for potholes and big bumps in the road.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:48:44 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96871.html</guid>
+      <georss:point>44.7150867860328 -85.5062055587769</georss:point>
+      <geo:lat>44.7150867860328</geo:lat>
+      <geo:long>-85.5062055587769</geo:long>
+    </item>
+    <item>
+      <title>Graffiti - multiple tags</title>
+      <link>http://bit.ly/fhD6Ev</link>
+      <description>Address: 1439 S Hicks St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Multiple graffiti tags covering 1439 S Hicks Street.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:38:20 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96870.html</guid>
+      <georss:point>39.932384 -75.17013</georss:point>
+      <geo:lat>39.932384</geo:lat>
+      <geo:long>-75.17013</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/hyoqdq</link>
+      <description>Address: 1500 S 16th St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Graffiti on the southwest corner of 16th &amp; Dickinson street.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:36:32 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96869.html</guid>
+      <georss:point>39.9321029 -75.1714468</georss:point>
+      <geo:lat>39.9321029</geo:lat>
+      <geo:long>-75.1714468</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/hXxzcG</link>
+      <description>Address: 1514 Dickinson St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Graffiti on the Hicks Street side of 1514 Dickinson.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:34:08 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96868.html</guid>
+      <georss:point>39.93182 -75.170303</georss:point>
+      <geo:lat>39.93182</geo:lat>
+      <geo:long>-75.170303</geo:long>
+    </item>
+    <item>
+      <title>Broken basement gate - dangerous!</title>
+      <link>http://bit.ly/dZrSNj</link>
+      <description>Address: 1514 Dickinson St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The basement gate is broken. Would likely collapse if walked on. Very dangerous. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:29:48 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96867.html</guid>
+      <georss:point>39.93182 -75.170303</georss:point>
+      <geo:lat>39.93182</geo:lat>
+      <geo:long>-75.170303</geo:long>
+    </item>
+    <item>
+      <title>Tires and trash</title>
+      <link>http://bit.ly/fN0QQb</link>
+      <description>Address: 1516 Dickinson St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Tires and trash on the Hicks Street side of 1516 Dickinson.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:26:18 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96866.html</guid>
+      <georss:point>39.931835 -75.170467</georss:point>
+      <geo:lat>39.931835</geo:lat>
+      <geo:long>-75.170467</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/giysBR</link>
+      <description>Address: 1516 Dickinson St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Graffiti on the Hicks Street side of 1516 Dickinson Street.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:21:20 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96865.html</guid>
+      <georss:point>39.931835 -75.170467</georss:point>
+      <geo:lat>39.931835</geo:lat>
+      <geo:long>-75.170467</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/h6gP1x</link>
+      <description>Address: 48-68 Court St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Says aoke&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:21:07 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96864.html</guid>
+      <georss:point>41.3052996 -72.9204436</georss:point>
+      <geo:lat>41.3052996</geo:lat>
+      <geo:long>-72.9204436</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/egRgPM</link>
+      <description>Address: 1546 S Hicks St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Graffiti on 1546 s hicks. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:17:07 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96863.html</guid>
+      <georss:point>39.931032 -75.1707</georss:point>
+      <geo:lat>39.931032</geo:lat>
+      <geo:long>-75.1707</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/h7oWEX</link>
+      <description>Address: 51-101 William St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Graffiti on olive St overpass&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:14:37 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96862.html</guid>
+      <georss:point>41.3089118 -72.9186773</georss:point>
+      <geo:lat>41.3089118</geo:lat>
+      <geo:long>-72.9186773</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/dLKIpe</link>
+      <description>Address: 51-101 William St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Graffiti on olive St overpass&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:13:55 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96861.html</guid>
+      <georss:point>41.3089118 -72.9186773</georss:point>
+      <geo:lat>41.3089118</geo:lat>
+      <geo:long>-72.9186773</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/g5XX7F</link>
+      <description>Address: 51-101 William St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Says Jo with gg underneath&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:12:43 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96860.html</guid>
+      <georss:point>41.3089135 -72.9186719</georss:point>
+      <geo:lat>41.3089135</geo:lat>
+      <geo:long>-72.9186719</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/hxq6sY</link>
+      <description>Address: Olive St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Multiple tags on olive street overpass&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:11:43 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96859.html</guid>
+      <georss:point>41.308935 -72.9189188</georss:point>
+      <geo:lat>41.308935</geo:lat>
+      <geo:long>-72.9189188</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/ieRWyJ</link>
+      <description>Address: Olive St New Haven, CT 06511, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Multiple tags on olive street overpass&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:11:42 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96858.html</guid>
+      <georss:point>41.308935 -72.9189188</georss:point>
+      <geo:lat>41.308935</geo:lat>
+      <geo:long>-72.9189188</geo:long>
+    </item>
+    <item>
+      <title>Graffiti</title>
+      <link>http://bit.ly/eBAsrO</link>
+      <description>Address: 1439 S 15th St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Graffiti on southeast corner of Dickinson &amp; hicks&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:05:35 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96857.html</guid>
+      <georss:point>39.9322449 -75.1696251</georss:point>
+      <geo:lat>39.9322449</geo:lat>
+      <geo:long>-75.1696251</geo:long>
+    </item>
+    <item>
+      <title>Graffiti </title>
+      <link>http://bit.ly/e2hBSo</link>
+      <description>Address: 1500 Dickinson St Philadelphia, PA 19146, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Graffiti on mailbox at corner of 15th and Dickinson street.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 20:02:29 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96856.html</guid>
+      <georss:point>39.931766 -75.169938</georss:point>
+      <geo:lat>39.931766</geo:lat>
+      <geo:long>-75.169938</geo:long>
+    </item>
+    <item>
+      <title>Dying tree dropping branches on cars, ambulances</title>
+      <link>http://bit.ly/guqHic</link>
+      <description>Address: 3008 Summerdale Ave Rockford, IL 61101, USA&lt;br/&gt;
+Rating: 2&lt;p&gt;
+large old dying tree previously reported but nothing was done about it, drops large branches on passing cars, parked cars, people walking by and ambulances. Lucky that no one has been injured or killed...yet. This tree has destroyed the sidewalks as well. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 23:42:58 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96855.html</guid>
+      <georss:point>42.2984229381554 -89.1038846969604</georss:point>
+      <geo:lat>42.2984229381554</geo:lat>
+      <geo:long>-89.1038846969604</geo:long>
+    </item>
+    <item>
+      <title>Dumped tires</title>
+      <link>http://bit.ly/i0i5b4</link>
+      <description>Address: 1522-1524 S Juniper St Philadelphia, PA 19147, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+8 dumped tires on hicks St. At corner of Dickinson St.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 19:44:28 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96854.html</guid>
+      <georss:point>39.9309064 -75.1672819</georss:point>
+      <geo:lat>39.9309064</geo:lat>
+      <geo:long>-75.1672819</geo:long>
+    </item>
+    <item>
+      <title>Inoperable Vehicle on Street</title>
+      <link>http://bit.ly/dRWKoN</link>
+      <description>Address: 90 Bayview St San Francisco, CA 94124, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 19:23:16 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96853.html</guid>
+      <georss:point>37.7328675 -122.3942213</georss:point>
+      <geo:lat>37.7328675</geo:lat>
+      <geo:long>-122.3942213</geo:long>
+    </item>
+    <item>
+      <title>traffic light</title>
+      <link>http://bit.ly/ewIB8g</link>
+      <description>Address: Meriden West Main Street&lt;br/&gt;
+Rating: 1&lt;p&gt;
+trafic light off of exit 3 on 691 southington exit , should be complete stop no turn on red every morning i see someone going through red light not stopping , when east west have a green light. no one stops at that light. very dangerous&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 18:21:45 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96852.html</guid>
+      <georss:point>41.5623209 -72.6506488</georss:point>
+      <geo:lat>41.5623209</geo:lat>
+      <geo:long>-72.6506488</geo:long>
+    </item>
+    <item>
+      <title>Blocked Drain</title>
+      <link>http://bit.ly/exMynW</link>
+      <description>Address: 205 Cuthbert St Philadelphia, PA 19106, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+There is about 1.5&quot; of standing water over this blocked drain&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 18:12:18 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96851.html</guid>
+      <georss:point>39.951467 -75.143879</georss:point>
+      <geo:lat>39.951467</geo:lat>
+      <geo:long>-75.143879</geo:long>
+    </item>
+    <item>
+      <title>ARREGLO DE AREA VERDE</title>
+      <link>http://bit.ly/gU51J8</link>
+      <description>Address: Isla Samoa Entre Lateral Esperancita E Isla Marquezas&lt;br/&gt;
+Rating: 1&lt;p&gt;
+SIEMPRE NOS HAN PROMETIDO QUE A NUESTRA AREA VERDE LA REMODELARAN PONIENDOLE KIOSKO, COLUMPIOS, JUEGOS PARA LOS NI&#209;OS PERO NUNCA LO CUMPLEN, QUISIERAMOS QUE LO HICERA SE&#209;OR PRESIDENTE.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 17:25:26 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96850.html</guid>
+      <georss:point>27.5699146412172 -109.944190084934</georss:point>
+      <geo:lat>27.5699146412172</geo:lat>
+      <geo:long>-109.944190084934</geo:long>
+    </item>
+    <item>
+      <title>Huge hole</title>
+      <link>http://bit.ly/gaxuZy</link>
+      <description>Address: 5720 S Conway Rd Belle Isle, FL 32812, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+A teerible hole&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 16:43:24 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96849.html</guid>
+      <georss:point>28.4717281905028 -81.3307356834412</georss:point>
+      <geo:lat>28.4717281905028</geo:lat>
+      <geo:long>-81.3307356834412</geo:long>
+    </item>
+    <item>
+      <title>Danger.. Technical Resource Supervisor lives here.....</title>
+      <link>http://bit.ly/dHcwB4</link>
+      <description>Address: 19510-19516 Thornridge Ave Cleveland, OH 44135, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+He's been reporting it to everyone he knows....&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 16:39:25 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96848.html</guid>
+      <georss:point>41.4358416106444 -81.8377161026001</georss:point>
+      <geo:lat>41.4358416106444</geo:lat>
+      <geo:long>-81.8377161026001</geo:long>
+    </item>
+    <item>
+      <title>Needs repaving</title>
+      <link>http://bit.ly/fzqF6O</link>
+      <description>Address: State Highway 225 Pillow, PA USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Rt 225 just south of 
+Pillow is a horrible
+stretch of highway. Desperately needs to be repaved. It's been like this for years&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 16:34:50 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96847.html</guid>
+      <georss:point>40.6365574616248 -76.798939704895</georss:point>
+      <geo:lat>40.6365574616248</geo:lat>
+      <geo:long>-76.798939704895</geo:long>
+    </item>
+    <item>
+      <title>Numerous Potholes </title>
+      <link>http://bit.ly/eVwILf</link>
+      <description>Address: South Butts Road Tucson, AZ&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The entire length of South Butts Road has numerous potholes that have started to cause the road surface to deteriorate.  The condition of the road is causing drives to weave around the potholes; not always observing pedestrians or vehicle traffic sharing the roadway.  If the potholes aren&#8217;t repaired soon the entire road will need to be resurface. The safety of public visitors the Vesey Neighborhood Park, the students attending Vesey Elementary School, as well as the residents on S Butts Road are factors that should be considered to set the priority for repairing this roadway. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 16:28:09 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96846.html</guid>
+      <georss:point>32.1551776 -111.0760548</georss:point>
+      <geo:lat>32.1551776</geo:lat>
+      <geo:long>-111.0760548</geo:long>
+    </item>
+    <item>
+      <title>pothole</title>
+      <link>http://bit.ly/gQHcH0</link>
+      <description>Address: 2130 Race St Philadelphia, PA 19103, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+potholes in street&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 16:24:55 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96845.html</guid>
+      <georss:point>39.957605 -75.1753559</georss:point>
+      <geo:lat>39.957605</geo:lat>
+      <geo:long>-75.1753559</geo:long>
+    </item>
+    <item>
+      <title>speeding on mount rd ,trucks , no room for us to walk it</title>
+      <link>http://bit.ly/g9NsVc</link>
+      <description>Address: 736-758 Mt Rd Aston, PA 19014, USA&lt;br/&gt;
+Rating: 2&lt;p&gt;
+there ar no sidewalks on mount rd and its a badplace to walk commercial trucks scare the people&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 19:28:01 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96844.html</guid>
+      <georss:point>39.8822273249238 -75.4457437992096</georss:point>
+      <geo:lat>39.8822273249238</geo:lat>
+      <geo:long>-75.4457437992096</geo:long>
+    </item>
+    <item>
+      <title>Potholes on Saskatoon streets</title>
+      <link>http://bit.ly/e4RBlV</link>
+      <description>Address: 2002-2026 York Ave Saskatoon, SK S7J 1H6, Canada&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Sidewalk collapsed causing tripping hazard&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 21:46:37 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96843.html</guid>
+      <georss:point>52.105529918705 -106.649705171585</georss:point>
+      <geo:lat>52.105529918705</geo:lat>
+      <geo:long>-106.649705171585</geo:long>
+    </item>
+    <item>
+      <title>extremely rough road ruining front ends of automobiles</title>
+      <link>http://bit.ly/epfRLl</link>
+      <description>Address: Tacoma Mall Blvd &amp; 48th St Going Towards The Mall Tacoma, WA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+this road is so rough that it's causing car damage - &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 16:13:32 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96842.html</guid>
+      <georss:point>47.2528768 -122.4442906</georss:point>
+      <geo:lat>47.2528768</geo:lat>
+      <geo:long>-122.4442906</geo:long>
+    </item>
+    <item>
+      <title>Potholes</title>
+      <link>http://bit.ly/hpOBkk</link>
+      <description>Address: 7521 Rockfalls Dr Richmond, VA 23225, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+pothole on southside of road - dangerous&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 16:00:01 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96841.html</guid>
+      <georss:point>37.551892701409 -77.526741027832</georss:point>
+      <geo:lat>37.551892701409</geo:lat>
+      <geo:long>-77.526741027832</geo:long>
+    </item>
+    <item>
+      <title>Extremely rough road crossing railroad tracks</title>
+      <link>http://bit.ly/gQyo2e</link>
+      <description>Address: 22046-22098 Inkster Rd Brownstown, MI 48134, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Repair this section of Inkster Road over railroad tracks&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:53:05 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96840.html</guid>
+      <georss:point>42.1438291160284 -83.3050453662872</georss:point>
+      <geo:lat>42.1438291160284</geo:lat>
+      <geo:long>-83.3050453662872</geo:long>
+    </item>
+    <item>
+      <title>Potholes</title>
+      <link>http://bit.ly/fgrwx6</link>
+      <description>Address: 3310 Custis Rd Richmond, VA 23225, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+group of 3-5 potholes on Custis near interesection of Duncaster.  &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:52:43 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96839.html</guid>
+      <georss:point>37.5435565130038 -77.5381994247437</georss:point>
+      <geo:lat>37.5435565130038</geo:lat>
+      <geo:long>-77.5381994247437</geo:long>
+    </item>
+    <item>
+      <title>potholes, </title>
+      <link>http://bit.ly/haabeP</link>
+      <description>Address: New Schley Street Garfield, NJ&lt;br/&gt;
+Rating: 1&lt;p&gt;
+the whole street needs to be paved  too many bumps and holes, feels  like a rollercoaster ride.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:54:42 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96838.html</guid>
+      <georss:point>40.8813984 -74.1026224</georss:point>
+      <geo:lat>40.8813984</geo:lat>
+      <geo:long>-74.1026224</geo:long>
+    </item>
+    <item>
+      <title>Hungover</title>
+      <link>http://bit.ly/dSyuLO</link>
+      <description>Address: 2001-2005 White Oak Rd Raleigh, NC 27608, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+I need someone to bring me either Biscuitville or Village Deli and a 32 ounce Lemon Lime Gatorade. I'm hungover and can't off the couch to get this myself.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:45:04 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96837.html</guid>
+      <georss:point>35.8077737 -78.6436402</georss:point>
+      <geo:lat>35.8077737</geo:lat>
+      <geo:long>-78.6436402</geo:long>
+    </item>
+    <item>
+      <title>Horrible wavy bumps</title>
+      <link>http://bit.ly/ewAXo6</link>
+      <description>Address: South Curtis St Up To Green Rd Meriden, CT&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Northbound from appr.1/2 mile from Green Rd intersection South Curtis St is so bumpy that it could jar the fillings from your teeth.Learning to avoid this street.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 18:46:19 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96836.html</guid>
+      <georss:point>41.5145631 -72.8029044</georss:point>
+      <geo:lat>41.5145631</geo:lat>
+      <geo:long>-72.8029044</geo:long>
+    </item>
+    <item>
+      <title>Storm Drain Ajar</title>
+      <link>http://bit.ly/fc4bsh</link>
+      <description>Address: 1550 S. 15th Street Philadelphia, PA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The storm drain on the northwest corner of 15th/Tasker is loose and sticking up about 6 inches above the sidewalk.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:34:23 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96835.html</guid>
+      <georss:point>39.9307668 -75.1698654</georss:point>
+      <geo:lat>39.9307668</geo:lat>
+      <geo:long>-75.1698654</geo:long>
+    </item>
+    <item>
+      <title>Tons of Graffiti on side of house</title>
+      <link>http://bit.ly/gUWGSr</link>
+      <description>Address: 1427 Morris Street Philadelphia, PA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Multiple tags on the Carlisle side of 1427 Morris Street&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:28:36 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96834.html</guid>
+      <georss:point>39.9295789 -75.169842</georss:point>
+      <geo:lat>39.9295789</geo:lat>
+      <geo:long>-75.169842</geo:long>
+    </item>
+    <item>
+      <title>Pothole</title>
+      <link>http://bit.ly/hubs6L</link>
+      <description>Address: 327 6 Ave Ne Calgary, AB T2E 0L9, Canada&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:26:55 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96833.html</guid>
+      <georss:point>51.0577227219174 -114.055069684982</georss:point>
+      <geo:lat>51.0577227219174</geo:lat>
+      <geo:long>-114.055069684982</geo:long>
+    </item>
+    <item>
+      <title>Left turn arrow too short for morning commuters.</title>
+      <link>http://bit.ly/exQSgp</link>
+      <description>Address: Paseo Del Sol W Santa Fe, NM 87507, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+When turning left off of Paseo del Sol West onto Airport Rd. in the mornings the green arrow only lasts a few seconds causing major traffic backups on Paseo del Sol West and causing many cars to run the light.  A recent fatality at this intersection, although unrelated to this particular issue, has made me very aware of the problems at this intersection. &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:26:25 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96832.html</guid>
+      <georss:point>35.6335117090843 -106.060810089111</georss:point>
+      <geo:lat>35.6335117090843</geo:lat>
+      <geo:long>-106.060810089111</geo:long>
+    </item>
+    <item>
+      <title>Abandoned Property</title>
+      <link>http://bit.ly/eKCjAf</link>
+      <description>Address: 4947-4951 N Peachtree Rd Dunwoody, GA 30338, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The land between North Peachtree road and Leisure Drive has been abandoned for sometime now and has become a dumping ground, attracting vermin and coyotes.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:21:46 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96830.html</guid>
+      <georss:point>33.9402269007176 -84.2946624755859</georss:point>
+      <geo:lat>33.9402269007176</geo:lat>
+      <geo:long>-84.2946624755859</geo:long>
+    </item>
+    <item>
+      <title>hole in road that looks like start of a sink hole</title>
+      <link>http://bit.ly/gNenoF</link>
+      <description>Address: Holly St Jackson, TN&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Holly St in front of New St. Asphalt was put there to fix it but it has melted into the hole and actually made it worse. There is still a hole in the road and it is fairly deep.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:21:18 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96829.html</guid>
+      <georss:point>35.5783497 -88.8171005</georss:point>
+      <geo:lat>35.5783497</geo:lat>
+      <geo:long>-88.8171005</geo:long>
+    </item>
+    <item>
+      <title>Pavement Problems</title>
+      <link>http://bit.ly/e2w1xq</link>
+      <description>Address: Delverton Drive Dunwoody Georgia 30338&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Delverton Drive was damaged during 1998 tornado and Roads COmmissioner Black promised that the road would be repaved.  IT has not been.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:19:57 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96828.html</guid>
+      <georss:point>33.9423630808575 -84.2939758300781</georss:point>
+      <geo:lat>33.9423630808575</geo:lat>
+      <geo:long>-84.2939758300781</geo:long>
+    </item>
+    <item>
+      <title>Empty trailer on Mentor Avenue and empty building.</title>
+      <link>http://bit.ly/ggEt5G</link>
+      <description>Address: Rich'S Trailer Court Mentor OH 44060, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Rich's Mobile Park has a trailer that has not been lived in for many years and it just sits there tilting, right on Mentor Avenue.  The building beside it is just as bad!  The city had the nerve to talk about the landscaping K-MART did a couple of years ago and yet let this place look like that for years.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:16:24 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96827.html</guid>
+      <georss:point>41.6772712509997 -81.3111877441406</georss:point>
+      <geo:lat>41.6772712509997</geo:lat>
+      <geo:long>-81.3111877441406</geo:long>
+    </item>
+    <item>
+      <title>garbage</title>
+      <link>http://bit.ly/fHJG42</link>
+      <description>Address: 330 Center St Meriden, CT&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Garbage and cardboard boxes in front of home have been there for 3 weeks.  Trash will not pick up. I believe because it is mostly cardboard boxes, they need to be put in the recycling bin for pickup.  Landlord offsite.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:15:22 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96826.html</guid>
+      <georss:point>41.5430417 -72.7936611</georss:point>
+      <geo:lat>41.5430417</geo:lat>
+      <geo:long>-72.7936611</geo:long>
+    </item>
+    <item>
+      <title>telephone pole</title>
+      <link>http://bit.ly/ha8Wkv</link>
+      <description>Address: 165 Camp St Meriden, CT 06450, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Telephone pole is splintering, ready to fall.  The replacement pole is there.  Please transfer all the wires to new pole before the old one falls.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:12:31 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96825.html</guid>
+      <georss:point>41.5428106786305 -72.7931785583496</georss:point>
+      <geo:lat>41.5428106786305</geo:lat>
+      <geo:long>-72.7931785583496</geo:long>
+    </item>
+    <item>
+      <title>Tree limbs</title>
+      <link>http://bit.ly/fqzNmR</link>
+      <description>Address: 157-171 Camp St Meriden, CT 06450, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Tree limbs over wires.  Need to be trimmed&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:08:10 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96824.html</guid>
+      <georss:point>41.5426661365062 -72.7934896945953</georss:point>
+      <geo:lat>41.5426661365062</geo:lat>
+      <geo:long>-72.7934896945953</geo:long>
+    </item>
+    <item>
+      <title>Pothole</title>
+      <link>http://bit.ly/eb6ieA</link>
+      <description>Address: 1616 14 Ave Nw Calgary, AB T2M 0L9, Canada&lt;br/&gt;
+Rating: 1&lt;p&gt;
+two right lanes 'wall to wall' when turning east from northhill centre parking lot sears exit&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:05:28 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96823.html</guid>
+      <georss:point>51.0667513503387 -114.09610748291</georss:point>
+      <geo:lat>51.0667513503387</geo:lat>
+      <geo:long>-114.09610748291</geo:long>
+    </item>
+    <item>
+      <title>pot holes</title>
+      <link>http://bit.ly/hhDEQZ</link>
+      <description>Address: 157-171 Camp St Meriden, CT 06450, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+A line of several potholes&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 15:03:33 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96822.html</guid>
+      <georss:point>41.5426018954584 -72.7935647964478</georss:point>
+      <geo:lat>41.5426018954584</geo:lat>
+      <geo:long>-72.7935647964478</geo:long>
+    </item>
+    <item>
+      <title>Bus Parked on corner of Main and Pesdale all week</title>
+      <link>http://bit.ly/g5SJhy</link>
+      <description>Address: 102 Pensdale St Philadelphia, PA 19127, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Bus with Penn State logos parked all week very close to corner of Pensdale and Main.  Makes a tight squeeze for some vehicles since it's so close to corner.  Also, propane tank hanging off back could get hit.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 14:50:40 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96821.html</guid>
+      <georss:point>40.0237119916322 -75.2201592922211</georss:point>
+      <geo:lat>40.0237119916322</geo:lat>
+      <geo:long>-75.2201592922211</geo:long>
+    </item>
+    <item>
+      <title>Needed: Trash Can (Park type with removable liner)</title>
+      <link>http://bit.ly/ggkm8Z</link>
+      <description>Address: 67 Downing St. (Near Fire Hydrant)&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Wire trash receptacle stolen.  Wanted:  the kind of trash receptacle used in parks with removable liner.  This area gets a great deal of pedestrian traffic with much litter.  The receptacle will cut down on litter in streets and give people a place to throw cleaned-up dog poop.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 14:48:30 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96820.html</guid>
+      <georss:point>41.2984159999998 -72.9291785</georss:point>
+      <geo:lat>41.2984159999998</geo:lat>
+      <geo:long>-72.9291785</geo:long>
+    </item>
+    <item>
+      <title>Paint Bike &quot;lane&quot; merge - eastbound on Mt Vernon</title>
+      <link>http://bit.ly/gWKjA0</link>
+      <description>Address: Ashford Dunwoody Rd Ne Dunwoody, GA 30338, USA&lt;br/&gt;
+Rating: 2&lt;p&gt;
+Riding eastbound on Mt Vernon crossing after Ashford-Dunwoody, the &quot;extended curb&quot; comes to a point at the end. This is a very dangerous point for bicyclists, as they must immediately do a lane change and merge to the right lane. Painting a &quot;bike lane&quot; marker with bicycle symbols and directions will indicate to drivers to allow bicyclist to merge into the right lane. This is a safety improvement.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 14:35:10 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96819.html</guid>
+      <georss:point>33.9439206784171 -84.337352514267</georss:point>
+      <geo:lat>33.9439206784171</geo:lat>
+      <geo:long>-84.337352514267</geo:long>
+    </item>
+    <item>
+      <title>Cut bike opening in &quot;Porkchop&quot; at Cherring &amp; Tilly Mill</title>
+      <link>http://bit.ly/hTOJnk</link>
+      <description>Address: 4893-4899 Cherring Dr Dunwoody, GA 30338, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+For bicyclists traveling south on Tilly Mill, need to create an appx 2-3 ft wide opening in the raised cement &quot;Porkchop&quot; at the intersection of Cherring &amp; Tilly Mill. This will allow bicyclists a safe passage through this intersection.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 14:24:26 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96818.html</guid>
+      <georss:point>33.939942072649 -84.2980098724365</georss:point>
+      <geo:lat>33.939942072649</geo:lat>
+      <geo:long>-84.2980098724365</geo:long>
+    </item>
+    <item>
+      <title>Install Streetlight</title>
+      <link>http://bit.ly/fYE0dC</link>
+      <description>Address: 2494 Jett Ferry Rd Dunwoody, GA 30338, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Please install a streetlight at the intersection of Dunwoody Club Drive &amp; Jett Ferry. There are streetlights appx 200 feet away on either side of the intersection on Jett Ferry. In the nighttime, it is very dark and dangerous for pedestrians to cross.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 14:09:06 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96816.html</guid>
+      <georss:point>33.9599667239889 -84.3026447296143</georss:point>
+      <geo:lat>33.9599667239889</geo:lat>
+      <geo:long>-84.3026447296143</geo:long>
+    </item>
+    <item>
+      <title>pave road</title>
+      <link>http://bit.ly/gqOgEr</link>
+      <description>Address: Westbrooks Rd Forsyth, GA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Its a dirt rd rain and bad weather it gets bad need to do more than scrape it &lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 14:06:00 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96815.html</guid>
+      <georss:point>33.1656233 -83.9719259</georss:point>
+      <geo:lat>33.1656233</geo:lat>
+      <geo:long>-83.9719259</geo:long>
+    </item>
+    <item>
+      <title>edge of road/berm washed out</title>
+      <link>http://bit.ly/hE4Tkf</link>
+      <description>Address: 1113 Darlington Rd Ligonier, PA 15658, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The edge of the road and berm is washed out causing people to swerve towards the middle of the road&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 13:47:21 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96814.html</guid>
+      <georss:point>40.2415692560112 -79.2862272262573</georss:point>
+      <geo:lat>40.2415692560112</geo:lat>
+      <geo:long>-79.2862272262573</geo:long>
+    </item>
+    <item>
+      <title>harbor walk closed for over a year</title>
+      <link>http://bit.ly/ed2WJc</link>
+      <description>Address: The Part Of The Harbor Walk That Connects Charlestown (Right After The Charles River Locks) And The North End (Walkway That Goes Under The Charlestown Bridge).&lt;br/&gt;
+Rating: 1&lt;p&gt;
+The harbor walk that connects Charlestown with the North End has been closed for over a year now.  There appears to be no effort to fix.  When will the City get the owner of this part of the walk or the City (if City property) to repair and reopen?&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 13:39:07 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96813.html</guid>
+      <georss:point>42.3677397230043 -71.0611152648926</georss:point>
+      <geo:lat>42.3677397230043</geo:lat>
+      <geo:long>-71.0611152648926</geo:long>
+    </item>
+    <item>
+      <title>Big bumps</title>
+      <link>http://bit.ly/gf0Iqp</link>
+      <description>Address: 1449 Berlin Rd Cherry Hill, NJ 08034, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+Driving on Berlin Rd (southeast) both lanes have a large bump as they cross over Interstate 295.&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 13:36:43 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96812.html</guid>
+      <georss:point>39.8816839498204 -75.0101852416992</georss:point>
+      <geo:lat>39.8816839498204</geo:lat>
+      <geo:long>-75.0101852416992</geo:long>
+    </item>
+    <item>
+      <title>Road is horrible, needs potholes fixed</title>
+      <link>http://bit.ly/e4jxMT</link>
+      <description>Address: 10-26 Georgia Ave Cherry Hill, NJ 08002, USA&lt;br/&gt;
+Rating: 1&lt;p&gt;
+&lt;/p&gt;</description>
+      <pubDate>Sat, 23 Apr 2011 13:33:54 +0000</pubDate>
+      <guid>http://seeclickfix.com/issues/96811.html</guid>
+      <georss:point>39.9162208677937 -75.0220513343811</georss:point>
+      <geo:lat>39.9162208677937</geo:lat>
+      <geo:long>-75.0220513343811</geo:long>
+    </item>
+  </channel>
+</rss>

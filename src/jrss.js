@@ -30,6 +30,11 @@ JRss.prototype  = {
             item.description = jQuery(this).find('description').eq(0).text();
             item.updated = jQuery(this).find('pubDate').eq(0).text();
             item.id = jQuery(this).find('guid').eq(0).text();
+            var point = jQuery(this).find('[nodeName="georss:point"]').eq(0).text();
+            if (point.length > 0) {
+              point = point.split(" ");
+              item.geometry = { type: "Point", coordinates: [point[1], point[0]] };
+            }
             
             feed.items.push(item);
         });
