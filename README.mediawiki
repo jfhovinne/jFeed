@@ -1,10 +1,11 @@
 '''jFeed: jQuery feed parser plugin'''
-Copyright (C) 2007 Jean-François Hovinne - http://www.hovinne.com/
+
+Copyright (C) 2007 Jean-François Hovinne - http://www.hovinne.com/<br />
 Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses.
 
 == Usage ==
 
-<code>jQuery.getFeed(options);</code>
+<pre lang="javascript">jQuery.getFeed(options);</pre>
 
 '''Options:'''
 * <code>url</code>: the feed URL (required)
@@ -18,7 +19,7 @@ Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses
         alert(feed.title);
     }
 });</pre>
-    
+
 == JFeed properties ==
 
 * <code>feed.type</code>
@@ -28,7 +29,7 @@ Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses
 * <code>feed.description</code>
 * <code>feed.language</code>
 * <code>feed.updated</code>
-* <code>feed.items: an array of JFeedItem</code>
+* <code>feed.items:</code> an array of JFeedItem
 
 == JFeedItem properties ==
 
