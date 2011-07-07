@@ -18,7 +18,7 @@ jQuery.getFeed = function(options) {
 
     if (options.url) {
 
-        $.ajax({
+        return $.ajax({
             type: 'GET',
             url: options.url,
             data: options.data,
