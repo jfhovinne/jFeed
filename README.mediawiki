@@ -1,6 +1,6 @@
 '''jFeed: jQuery feed parser plugin'''
 
-Copyright (C) 2007 Jean-François Hovinne - http://www.hovinne.com/<br />
+Copyright (C) 2007-2011 Jean-François Hovinne - http://hovinne.com/<br />
 Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses.
 
 == Usage ==
@@ -13,12 +13,14 @@ Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses
 * <code>success</code>: a function to be called if the request succeeds. The function gets passed one argument: the <code>JFeed</code> object
 
 '''Example:'''
-<pre lang="javascript">jQuery.getFeed({
-    url: 'rss.xml',
-    success: function(feed) {
-        alert(feed.title);
-    }
-});</pre>
+<pre lang="javascript">
+ jQuery.getFeed({
+   url: 'rss.xml',
+   success: function(feed) {
+     alert(feed.title);
+   }
+ });
+</pre>
 
 == JFeed properties ==
 
