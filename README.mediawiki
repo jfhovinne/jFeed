@@ -1,0 +1,45 @@
+'''jFeed: jQuery feed parser plugin'''
+
+Copyright (C) 2007 Jean-François Hovinne - http://www.hovinne.com/<br />
+Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses.
+
+== Usage ==
+
+<pre lang="javascript">jQuery.getFeed(options);</pre>
+
+'''Options:'''
+* <code>url</code>: the feed URL (required)
+* <code>data</code>: data to be sent to the server. See [http://api.jquery.com/jQuery.ajax/ <code>jQuery.ajax</code>] data property
+* <code>success</code>: a function to be called if the request succeeds. The function gets passed one argument: the <code>JFeed</code> object
+
+'''Example:'''
+<pre lang="javascript">jQuery.getFeed({
+    url: 'rss.xml',
+    success: function(feed) {
+        alert(feed.title);
+    }
+});</pre>
+
+== JFeed properties ==
+
+* <code>feed.type</code>
+* <code>feed.version</code>
+* <code>feed.title</code>
+* <code>feed.link</code>
+* <code>feed.description</code>
+* <code>feed.language</code>
+* <code>feed.updated</code>
+* <code>feed.items:</code> an array of JFeedItem
+
+== JFeedItem properties ==
+
+* <code>item.title</code>
+* <code>item.link</code>
+* <code>item.description</code>
+* <code>item.updated</code>
+* <code>item.id</code>
+
+Please see the provided examples for more information.
+
+A basic PHP proxy is also available (<code>proxy.php</code>), if you need to load external
+feeds (for testing purposes only, do not use it on public websites).
