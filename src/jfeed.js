@@ -29,7 +29,7 @@ jQuery.getFeed = function(options) {
           // Default error behavior if failure & error both unspecified
           options.error = function(xhr, msg, e){
             window.console&&console.log('getFeed failed to load feed', xhr, msg, e);
-          },
+          }
         }
 
         return $.ajax({
