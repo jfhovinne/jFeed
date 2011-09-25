@@ -12,13 +12,27 @@ jQuery.getFeed = function(options) {
         data: null,
         cache: true,
         success: null,
-        failure: null
+        failure: null,
+        error: null,
+        global: true
 
     }, options);
 
     if (options.url) {
+        
+        if (jQuery.isFunction(options.failure) && jQuery.type(options.error)==='null') {
+          // Handle legacy failure option
+          options.error = function(xhr, msg, e){
+            options.failure(msg, e);
+          }
+        } else if (jQuery.type(options.failure) === jQuery.type(options.error) === 'null') {
+          // Default error behavior if failure & error both unspecified
+          options.error = function(xhr, msg, e){
+            window.console&&console.log('getFeed failed to load feed', xhr, msg, e);
+          }
+        }
 
-        $.ajax({
+        return $.ajax({
             type: 'GET',
             url: options.url,
             data: options.data,
@@ -28,9 +42,8 @@ jQuery.getFeed = function(options) {
                 var feed = new JFeed(xml);
                 if (jQuery.isFunction(options.success)) options.success(feed);
             },
-            error: function (xhr, msg, e) {
-                if (jQuery.isFunction(options.failure)) options.failure(msg, e);
-            }
+            error: options.error,
+            global: options.global
         });
     }
 };
