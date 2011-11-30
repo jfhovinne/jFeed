@@ -28,6 +28,7 @@ JAtom.prototype = {
             item.description = jQuery(this).find('content').eq(0).text();
             item.updated = jQuery(this).find('updated').eq(0).text();
             item.id = jQuery(this).find('id').eq(0).text();
+            item.author = jQuery(this).find('author name').eq(0).text();
             
             feed.items.push(item);
         });

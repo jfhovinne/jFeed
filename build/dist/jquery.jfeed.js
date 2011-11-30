@@ -91,7 +91,8 @@ JFeedItem.prototype = {
     link: '',
     description: '',
     updated: '',
-    id: ''
+    id: '',
+    author: ''
 };
 
 function JAtom(xml) {
@@ -124,6 +125,7 @@ JAtom.prototype = {
             item.description = jQuery(this).find('content').eq(0).text();
             item.updated = jQuery(this).find('updated').eq(0).text();
             item.id = jQuery(this).find('id').eq(0).text();
+            item.author = jQuery(this).find('author name').eq(0).text();
             
             feed.items.push(item);
         });
@@ -162,6 +164,7 @@ JRss.prototype  = {
             item.description = jQuery(this).find('description').eq(0).text();
             item.updated = jQuery(this).find('pubDate').eq(0).text();
             item.id = jQuery(this).find('guid').eq(0).text();
+            item.author = jQuery(this).find("dc\\:creator").eq(0).text();
             
             feed.items.push(item);
         });
