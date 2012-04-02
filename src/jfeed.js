@@ -15,7 +15,7 @@ jQuery.getFeed = function(options) {
         failure: null,
         error: null,
         global: true,
-        dataType: (jQuery.browser.msie) ? "text" : "xml",
+        dataType: "xml",
 
     }, options);
 
@@ -38,7 +38,7 @@ jQuery.getFeed = function(options) {
             url: options.url,
             data: options.data,
             cache: options.cache,
-            dataType: options.dataType,
+            dataType: (jQuery.browser.msie) ? "text" : options.dataType,
             success: function(xml) {
                 var feed = new JFeed(xml);
                 if (jQuery.isFunction(options.success)) options.success(feed);
