@@ -30,11 +30,11 @@ JRss.prototype  = {
             item.description = jQuery(this).find('description').eq(0).text();
             
             if (jQuery.browser.webkit) {
-				item.content = jQuery(this).find('encoded').eq(0).text();
-			}
-			else {
-				item.content = jQuery(this).find('content\\:encoded').eq(0).text();
-			}
+                item.content = jQuery(this).find('encoded').eq(0).text();
+            }
+            else {
+                item.content = jQuery(this).find('content\\:encoded').eq(0).text();
+            }
             
             item.updated = jQuery(this).find('pubDate').eq(0).text();
             item.id = jQuery(this).find('guid').eq(0).text();
