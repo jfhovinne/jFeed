@@ -31,13 +31,14 @@ Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses
 * <code>feed.description</code>
 * <code>feed.language</code>
 * <code>feed.updated</code>
-* <code>feed.items:</code> an array of JFeedItem
+* <code>feed.items</code> an array of JFeedItem
 
 == JFeedItem properties ==
 
 * <code>item.title</code>
 * <code>item.link</code>
 * <code>item.description</code>
+* <code>item.content</code>: full text
 * <code>item.updated</code>
 * <code>item.id</code>
 
