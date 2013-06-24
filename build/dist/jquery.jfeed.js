@@ -99,9 +99,9 @@ function JAtom(xml) {
 };
 
 JAtom.prototype = {
-    
+
     _parse: function(xml) {
-    
+
         var channel = jQuery('feed', xml).eq(0);
 
         this.version = '1.0';
@@ -110,21 +110,36 @@ JAtom.prototype = {
         this.description = jQuery(channel).find('subtitle:first').text();
         this.language = jQuery(channel).attr('xml:lang');
         this.updated = jQuery(channel).find('updated:first').text();
-        
+
         this.items = new Array();
-        
+
         var feed = this;
-        
+
         jQuery('entry', xml).each( function() {
-        
+
             var item = new JFeedItem();
-            
-            item.title = jQuery(this).find('title').eq(0).text();
-            item.link = jQuery(this).find('link').eq(0).attr('href');
-            item.description = jQuery(this).find('content').eq(0).text();
-            item.updated = jQuery(this).find('updated').eq(0).text();
-            item.id = jQuery(this).find('id').eq(0).text();
-            
+
+            var t = jQuery(this);
+
+            item.title = t.find('title').eq(0).text();
+
+            /*
+             * RFC 4287 - 4.2.7.2: take first encountered 'link' node
+             *                     to be of the 'alternate' type.
+             */
+            t.find('link').each(function() {
+               var rel = $(this).attr('rel');
+               if ((rel == 'alternate') || !rel) {
+                  item.link = $(this).attr('href');
+                  return false;
+               }
+               return true;
+            });
+
+            item.description = t.find('content').eq(0).text();
+            item.updated = t.find('updated').eq(0).text();
+            item.id = t.find('id').eq(0).text();
+
             feed.items.push(item);
         });
     }
