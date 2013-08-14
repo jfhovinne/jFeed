@@ -44,6 +44,12 @@ JRss.prototype  = {
             item.id = t.find('guid').eq(0).text();
             item.enclosure = t.find('enclosure').attr('url');
 
+            var point = t.find('[nodeName="georss:point"]').eq(0).text();
+            if (point.length > 0) {
+              point = point.split(" ");
+              item.coordinates = [point[1], point[0]];
+            }
+
             feed.items.push(item);
         });
     }

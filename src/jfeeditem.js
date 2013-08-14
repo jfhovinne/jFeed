@@ -8,6 +8,7 @@ JFeedItem.prototype = {
     content: '',
     updated: '',
     id: '',
-    author: ''
+    author: '',
+	coordinates: ''
 };
 
