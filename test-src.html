@@ -18,7 +18,9 @@ jQuery(function() {
                      'xml/rss-092.xml',
                      'xml/rss-10.xml',
                      'xml/rss-20.xml',
-                     'xml/atom.xml'];
+                     'xml/atom.xml',
+                     'xml/atom.georss.xml',
+                     'xml/rss.georss.xml'];
   
     jQuery().ajaxError(function(request, settings, ex) {
         console.log('Request error');
@@ -48,6 +50,8 @@ jQuery(function() {
                 + feed.items[j].description);
                 console.log('item ' + j + ' updated: ' + feed.items[j].updated);
                 console.log('item ' + j + ' id: ' + feed.items[j].id);
+                console.log('item ' + j + ' author: ' + feed.items[j].author);
+                console.log('item ' + j + ' coordinates: ' + feed.items[j].coordinates);
             }
         }
         });

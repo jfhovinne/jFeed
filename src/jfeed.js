@@ -19,7 +19,7 @@ jQuery.getFeed = function(options) {
     }, options);
 
     if (options.url) {
-        
+
         if (jQuery.isFunction(options.failure) && jQuery.type(options.error)==='null') {
           // Handle legacy failure option
           options.error = function(xhr, msg, e){
@@ -32,12 +32,12 @@ jQuery.getFeed = function(options) {
           }
         }
 
-        return $.ajax({
+        return jQuery.ajax({
             type: 'GET',
             url: options.url,
             data: options.data,
             cache: options.cache,
-            dataType: (jQuery.browser.msie) ? "text" : "xml",
+            dataType: (document.all) ? "text" : "xml",
             success: function(xml) {
                 var feed = new JFeed(xml);
                 if (jQuery.isFunction(options.success)) options.success(feed);
@@ -62,7 +62,7 @@ JFeed.prototype = {
     description: '',
     parse: function(xml) {
 
-        if (jQuery.browser.msie) {
+        if (document.all) {
             var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
             xmlDoc.loadXML(xml);
             xml = xmlDoc;
