@@ -43,6 +43,7 @@ JAtom.prototype = {
             item.description = t.find('content').eq(0).text();
             item.updated = t.find('updated').eq(0).text();
             item.id = t.find('id').eq(0).text();
+            item.author = t.find('author name').eq(0).text();
 
             feed.items.push(item);
         });

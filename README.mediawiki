@@ -41,6 +41,7 @@ Dual licensed under the MIT (MIT-license.txt) and GPL (GPL-license.txt) licenses
 * <code>item.content</code>: full text
 * <code>item.updated</code>
 * <code>item.id</code>
+* <code>item.author</code>
 
 Please see the provided examples for more information.
 

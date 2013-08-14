@@ -7,6 +7,7 @@ JFeedItem.prototype = {
     description: '',
     content: '',
     updated: '',
-    id: ''
+    id: '',
+    author: ''
 };
 

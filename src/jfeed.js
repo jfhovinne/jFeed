@@ -19,7 +19,7 @@ jQuery.getFeed = function(options) {
     }, options);
 
     if (options.url) {
-        
+
         if (jQuery.isFunction(options.failure) && jQuery.type(options.error)==='null') {
           // Handle legacy failure option
           options.error = function(xhr, msg, e){
@@ -32,7 +32,7 @@ jQuery.getFeed = function(options) {
           }
         }
 
-        return $.ajax({
+        return jQuery.ajax({
             type: 'GET',
             url: options.url,
             data: options.data,
