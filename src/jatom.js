@@ -45,7 +45,8 @@ JAtom.prototype = {
             item.id = t.find('id').eq(0).text();
             item.author = t.find('author name').eq(0).text();
 
-            var point = t.find('[nodeName="georss:point"]').eq(0).text();
+            var point = t.find('georss\\:point').eq(0).text();
+            if (!point) point = t.find('point').eq(0).text();
             if (point.length > 0) {
               point = point.split(" ");
               item.coordinates = [point[1], point[0]];
