@@ -33,15 +33,16 @@ JRss.prototype  = {
 
             if (jQuery.browser.webkit) {
                 item.content = t.find('encoded').eq(0).text();
+                item.author = t.find('creator').eq(0).text();
             }
             else {
                 item.content = t.find('content\\:encoded').eq(0).text();
+                item.author = t.find('dc\\:creator').eq(0).text();
             }
 
             item.updated = t.find('pubDate').eq(0).text();
             item.id = t.find('guid').eq(0).text();
             item.enclosure = t.find('enclosure').attr('url');
-            item.author = t.find('dc\\:creator').eq(0).text();
 
             feed.items.push(item);
         });
