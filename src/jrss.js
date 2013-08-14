@@ -25,21 +25,23 @@ JRss.prototype  = {
 
             var item = new JFeedItem();
 
-            item.title = jQuery(this).find('title').eq(0).text();
-            item.link = jQuery(this).find('link').eq(0).text();
-            item.description = jQuery(this).find('description').eq(0).text();
+            var t = jQuery(this);
+
+            item.title = t.find('title').eq(0).text();
+            item.link = t.find('link').eq(0).text();
+            item.description = t.find('description').eq(0).text();
 
             if (jQuery.browser.webkit) {
-                item.content = jQuery(this).find('encoded').eq(0).text();
+                item.content = t.find('encoded').eq(0).text();
             }
             else {
-                item.content = jQuery(this).find('content\\:encoded').eq(0).text();
+                item.content = t.find('content\\:encoded').eq(0).text();
             }
 
-            item.updated = jQuery(this).find('pubDate').eq(0).text();
-            item.id = jQuery(this).find('guid').eq(0).text();
-            item.enclosure = jQuery(this).find('enclosure').attr('url');
-            item.author = jQuery(this).find('dc\\:creator').eq(0).text();
+            item.updated = t.find('pubDate').eq(0).text();
+            item.id = t.find('guid').eq(0).text();
+            item.enclosure = t.find('enclosure').attr('url');
+            item.author = t.find('dc\\:creator').eq(0).text();
 
             feed.items.push(item);
         });
