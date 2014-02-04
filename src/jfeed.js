@@ -32,7 +32,7 @@ jQuery.getFeed = function(options) {
           }
         }
 
-        return $.ajax({
+        return jQuery.ajax({
             type: 'GET',
             url: options.url,
             data: options.data,
