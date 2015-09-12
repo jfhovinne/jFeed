@@ -37,7 +37,7 @@ jQuery.getFeed = function(options) {
             url: options.url,
             data: options.data,
             cache: options.cache,
-            dataType: (jQuery.browser.msie) ? "text" : "xml",
+            dataType: "xml",
             success: function(xml) {
                 var feed = new JFeed(xml);
                 if (jQuery.isFunction(options.success)) options.success(feed);
@@ -61,13 +61,6 @@ JFeed.prototype = {
     link: '',
     description: '',
     parse: function(xml) {
-
-        if (jQuery.browser.msie) {
-            var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-            xmlDoc.loadXML(xml);
-            xml = xmlDoc;
-        }
-
         if (jQuery('channel', xml).length == 1) {
 
             this.type = 'rss';
