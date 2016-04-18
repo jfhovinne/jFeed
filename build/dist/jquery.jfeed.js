@@ -114,7 +114,22 @@ JAtom.prototype = {
             var item = new JFeedItem();
 
             item.title = jQuery(this).find('title').eq(0).text();
-            item.link = jQuery(this).find('link').eq(0).attr('href');
+
+            // Choosing a proper link
+            var links = item.link = jQuery(this).find('link');
+            if(links.length > 1){
+              for (var i = 0; i < links.length; i++) {
+                var link = $(links[i]);
+                // if is not the replies, or the edit or the self choose it
+                if((link.attr('rel') !== 'replies' && link.attr('rel') !== 'edit' && link.attr('rel') !== 'self') || i === links.length-1){
+                  item.link = link.attr('href')
+                }
+              }
+            }
+            if(!item.liknk){
+              item.link = jQuery(this).find('link').eq(0).attr('href');
+            }
+
             item.description = jQuery(this).find('content').eq(0).text();
             item.updated = jQuery(this).find('updated').eq(0).text();
             item.id = jQuery(this).find('id').eq(0).text();
@@ -158,6 +173,7 @@ JRss.prototype  = {
             if(item.description ===""){
               item.description = jQuery(this).find('encoded').eq(0).text();
             }
+            item.content = jQuery(this).find('content').eq(0).text();
             item.enclosure = jQuery(this).find('enclosure').eq(0).text();
             item.updated = jQuery(this).find('pubDate').eq(0).text();
             item.id = jQuery(this).find('guid').eq(0).text();
