@@ -126,7 +126,7 @@ JAtom.prototype = {
                 }
               }
             }
-            if(!item.liknk){
+            if(!item.link){
               item.link = jQuery(this).find('link').eq(0).attr('href');
             }
 
@@ -163,7 +163,7 @@ JRss.prototype  = {
 
         var feed = this;
 
-        jQuery('item', xml).each( function() {
+        jQuery('item', xml).each( function(index) {
 
             var item = new JFeedItem();
 
@@ -172,6 +172,13 @@ JRss.prototype  = {
             item.description = jQuery(this).find('description').eq(0).text();
             if(item.description ===""){
               item.description = jQuery(this).find('encoded').eq(0).text();
+            }
+            item.media = jQuery(this).find('[type^="image"]')[0];
+            if(!item.media){
+              item.media = jQuery(this).find('media\\:content,content')[0];
+            }
+            if(item.media){
+              item.mediaUrl = item.media.getAttribute("url");
             }
             item.content = jQuery(this).find('content').eq(0).text();
             item.enclosure = jQuery(this).find('enclosure').eq(0).text();
