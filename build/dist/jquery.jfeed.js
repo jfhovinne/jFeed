@@ -173,9 +173,9 @@ JRss.prototype  = {
             if(item.description ===""){
               item.description = jQuery(this).find('encoded').eq(0).text();
             }
-            item.media = jQuery(this).find('[type^="image"]')[0];
+            item.media = jQuery(this).find('[type^="image"]').slice(-1)[0];
             if(!item.media){
-              item.media = jQuery(this).find('media\\:content,content')[0];
+              item.media = jQuery(this).find('media\\:content,content').slice(-1)[0];
             }
             if(item.media){
               item.mediaUrl = item.media.getAttribute("url");
