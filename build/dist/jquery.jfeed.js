@@ -24,20 +24,20 @@ jQuery.getFeed = function(options) {
           // Handle legacy failure option
           options.error = function(xhr, msg, e){
             options.failure(msg, e);
-          }
+          };
         } else if (jQuery.type(options.failure) === jQuery.type(options.error) === 'null') {
           // Default error behavior if failure & error both unspecified
           options.error = function(xhr, msg, e){
-            window.console&&console.log('getFeed failed to load feed', xhr, msg, e);
-          }
+            console.log('getFeed failed to load feed', xhr, msg, e);
+          };
         }
-
         return $.ajax({
             type: 'GET',
             url: options.url,
             data: options.data,
             cache: options.cache,
             dataType: "xml",
+            headers: options.headers,
             success: function(xml) {
                 var feed = new JFeed(xml);
                 if (jQuery.isFunction(options.success)) options.success(feed);
@@ -173,10 +173,7 @@ JRss.prototype  = {
             if(item.description ===""){
               item.description = jQuery(this).find('encoded').eq(0).text();
             }
-            item.media = jQuery(this).find('[type^="image"]').slice(-1)[0];
-            if(!item.media){
-              item.media = jQuery(this).find('media\\:content,content').slice(-1)[0];
-            }
+            item.media = jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail').slice(-1)[0];
             if(item.media){
               item.mediaUrl = item.media.getAttribute("url");
             }
