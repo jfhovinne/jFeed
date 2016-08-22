@@ -31,6 +31,10 @@ jQuery.getFeed = function(options) {
             window.console&&console.log('getFeed failed to load feed', xhr, msg, e);
           }
         }
+        
+        if (!jQuery.hasOwnProperty('browser')) {
+            jQuery.browser = {};
+        }
 
         return $.ajax({
             type: 'GET',
