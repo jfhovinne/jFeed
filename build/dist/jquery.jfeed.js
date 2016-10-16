@@ -179,12 +179,13 @@ JRss.prototype  = {
             var medias = jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail');
             if(medias && medias.slice){
               for (var i = 0; i < medias.length; i++) {
-                if(medias[i].getAttribute('url').indexOf("thumb")!==-1 || $(medias[i]).is('media\\:thumbnail') || $(medias[i]).is('thumbnail')){
+                var url = medias[i].getAttribute('url');
+                if((url && url.indexOf("thumb")!==-1) || $(medias[i]).is('media\\:thumbnail') || $(medias[i]).is('thumbnail')){
                   item.thumbnail = medias[i];
-                  item.thumbnailUrl = medias[i].getAttribute("url");
+                  item.thumbnailUrl = url;
                 }else{
                   item.media = medias[i];
-                  item.mediaUrl = medias[i].getAttribute("url");
+                  item.mediaUrl = url;
                 }
               }
             }
