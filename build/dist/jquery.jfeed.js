@@ -174,19 +174,21 @@ JRss.prototype  = {
               item.description = jQuery(this).find('encoded').eq(0).text();
             }
 
-
             // The plan:
             // Check ig there is media. If there is media get the thumbnail and get the list of medias.
-            
-            item.media = jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail').slice(-1)[0];
-            // if the word thumbnail is in the url, this image is not going to be used at all
-            // If the media
-            if(item.media && item.media.getAttribute("url").indexOf("thumb")!==-1 && jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail').slice(-1).length > 1){
-              item.media = jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail').slice(-1)[1];
+            var medias = jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail');
+            if(medias && medias.slice){
+              for (var i = 0; i < medias.length; i++) {
+                if(medias[i].getAttribute('url').indexOf("thumb")!==-1 || $(medias[i]).is('media\\:thumbnail') || $(medias[i]).is('thumbnail')){
+                  item.thumbnail = medias[i];
+                  item.thumbnailUrl = medias[i].getAttribute("url");
+                }else{
+                  item.media = medias[i];
+                  item.mediaUrl = medias[i].getAttribute("url");
+                }
+              }
             }
-            if(item.media){
-              item.mediaUrl = item.media.getAttribute("url");
-            }
+
             item.content = jQuery(this).find('content').eq(0).text();
             item.enclosure = jQuery(this).find('enclosure').eq(0).text();
             item.updated = jQuery(this).find('pubDate').eq(0).text();
