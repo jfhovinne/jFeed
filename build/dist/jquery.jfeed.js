@@ -173,7 +173,17 @@ JRss.prototype  = {
             if(item.description ===""){
               item.description = jQuery(this).find('encoded').eq(0).text();
             }
+
+
+            // The plan:
+            // Check ig there is media. If there is media get the thumbnail and get the list of medias.
+            
             item.media = jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail').slice(-1)[0];
+            // if the word thumbnail is in the url, this image is not going to be used at all
+            // If the media
+            if(item.media && item.media.getAttribute("url").indexOf("thumb")!==-1 && jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail').slice(-1).length > 1){
+              item.media = jQuery(this).find('[type^="image"],media\\:content,content,media\\:thumbnail,thumbnail').slice(-1)[1];
+            }
             if(item.media){
               item.mediaUrl = item.media.getAttribute("url");
             }
