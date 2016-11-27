@@ -51,7 +51,6 @@ jQuery.getFeed = function(options) {
 function JFeed(xml) {
     if (xml) this.parse(xml);
 }
-;
 
 JFeed.prototype = {
 
@@ -62,22 +61,22 @@ JFeed.prototype = {
     description: '',
     // enclosures: '',
     parse: function(xml) {
+      var feedClass;
+      if (jQuery('channel', xml).length == 1) {
 
-        if (jQuery('channel', xml).length == 1) {
+          this.type = 'rss';
+          feedClass = new JRss(xml);
 
-            this.type = 'rss';
-            var feedClass = new JRss(xml);
+      } else if (jQuery('feed', xml).length == 1) {
 
-        } else if (jQuery('feed', xml).length == 1) {
+          this.type = 'atom';
+          feedClass = new JAtom(xml);
+      }
 
-            this.type = 'atom';
-            var feedClass = new JAtom(xml);
-        }
-
-        if (feedClass) jQuery.extend(this, feedClass);
+      if (feedClass !== undefined) jQuery.extend(this, feedClass);
     }
 };
-function JFeedItem() {};
+function JFeedItem() {}
 
 JFeedItem.prototype = {
 
@@ -90,7 +89,7 @@ JFeedItem.prototype = {
 };
 function JAtom(xml) {
     this._parse(xml);
-};
+}
 
 JAtom.prototype = {
 
@@ -122,7 +121,7 @@ JAtom.prototype = {
                 var link = $(links[i]);
                 // if is not the replies, or the edit or the self choose it
                 if((link.attr('rel') !== 'replies' && link.attr('rel') !== 'edit' && link.attr('rel') !== 'self') || i === links.length-1){
-                  item.link = link.attr('href')
+                  item.link = link.attr('href');
                 }
               }
             }
@@ -141,7 +140,7 @@ JAtom.prototype = {
 
 function JRss(xml) {
     this._parse(xml);
-};
+}
 
 JRss.prototype  = {
 
@@ -181,10 +180,10 @@ JRss.prototype  = {
               for (var i = 0; i < medias.length; i++) {
                 var url = medias[i].getAttribute('url');
                 if((url && url.indexOf("thumb")!==-1) || $(medias[i]).is('media\\:thumbnail') || $(medias[i]).is('thumbnail')){
-                  item.thumbnail = medias[i];
+                  // item.thumbnail = medias[i];
                   item.thumbnailUrl = url;
                 }else{
-                  item.media = medias[i];
+                  // item.media = medias[i];
                   item.mediaUrl = url;
                 }
               }
