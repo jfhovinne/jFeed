@@ -19,17 +19,17 @@ jQuery.getFeed = function(options) {
     }, options);
 
     if (options.url) {
-        
+
         if (jQuery.isFunction(options.failure) && jQuery.type(options.error)==='null') {
           // Handle legacy failure option
           options.error = function(xhr, msg, e){
             options.failure(msg, e);
-          }
+          };
         } else if (jQuery.type(options.failure) === jQuery.type(options.error) === 'null') {
           // Default error behavior if failure & error both unspecified
           options.error = function(xhr, msg, e){
             window.console&&console.log('getFeed failed to load feed', xhr, msg, e);
-          }
+          };
         }
 
         return $.ajax({
@@ -51,7 +51,6 @@ jQuery.getFeed = function(options) {
 function JFeed(xml) {
     if (xml) this.parse(xml);
 }
-;
 
 JFeed.prototype = {
 
@@ -61,25 +60,24 @@ JFeed.prototype = {
     link: '',
     description: '',
     parse: function(xml) {
+      var feedClass;
+      if (jQuery.browser.msie) {
+          var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+          xmlDoc.loadXML(xml);
+          xml = xmlDoc;
+      }
 
-        if (jQuery.browser.msie) {
-            var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-            xmlDoc.loadXML(xml);
-            xml = xmlDoc;
-        }
+      if (jQuery('channel', xml).length == 1) {
 
-        if (jQuery('channel', xml).length == 1) {
+          this.type = 'rss';
+          feedClass = new JRss(xml);
 
-            this.type = 'rss';
-            var feedClass = new JRss(xml);
+      } else if (jQuery('feed', xml).length == 1) {
 
-        } else if (jQuery('feed', xml).length == 1) {
+          this.type = 'atom';
+          feedClass = new JAtom(xml);
+      }
 
-            this.type = 'atom';
-            var feedClass = new JAtom(xml);
-        }
-
-        if (feedClass) jQuery.extend(this, feedClass);
+      if (feedClass) jQuery.extend(this, feedClass);
     }
 };
-
