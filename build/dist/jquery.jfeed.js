@@ -67,10 +67,12 @@ JFeed.prototype = {
           this.type = 'rss';
           feedClass = new JRss(xml);
 
+      } else if(jQuery('link', xml).attr('href').indexOf("youtube")!==-1){
+            this.type = 'yatom';
+            feedClass = new YAtom(xml);
       } else if (jQuery('feed', xml).length == 1) {
-
-          this.type = 'atom';
-          feedClass = new JAtom(xml);
+            this.type = 'atom';
+            feedClass = new JAtom(xml);
       }
 
       if (feedClass !== undefined) jQuery.extend(this, feedClass);
@@ -87,6 +89,62 @@ JFeedItem.prototype = {
     updated: '',
     id: ''
 };
+
+function YAtom(xml) {
+    this._parse(xml);
+}
+
+YAtom.prototype = {
+
+    // Yooutube type
+    _parse: function(xml) {
+
+        var channel = jQuery('feed', xml).eq(0);
+
+        this.version = '1.0';
+        this.title = jQuery(channel).find('title:first').text();
+        this.link = jQuery(channel).find('link:first').attr('href');
+        this.description = jQuery(channel).find('subtitle:first').text();
+        this.language = jQuery(channel).attr('xml:lang');
+        this.updated = jQuery(channel).find('updated:first').text();
+
+        this.items = new Array();
+
+        var feed = this;
+
+        jQuery('entry', xml).each( function() {
+
+            var item = new JFeedItem();
+
+            item.title = jQuery(this).find('title').eq(0).text();
+
+            item.mediaUrl = jQuery(this).find('thumbnail:first').attr('url');
+
+            // Choosing a proper link
+            var links = item.link = jQuery(this).find('link');
+            if(links.length > 1){
+              for (var i = 0; i < links.length; i++) {
+                var link = $(links[i]);
+                // if is not the replies, or the edit or the self choose it
+                if((link.attr('rel') !== 'replies' && link.attr('rel') !== 'edit' && link.attr('rel') !== 'self') || i === links.length-1){
+                  item.link = link.attr('href');
+                }
+              }
+            }
+            if(!item.link || typeof(item.link) !== 'string'){
+              item.link = jQuery(this).find('link').eq(0).attr('href');
+            }
+
+            item.description = jQuery(this).find('description').eq(0).text();
+            
+            item.updated = jQuery(this).find('updated').eq(0).text();
+            item.id = jQuery(this).find('id').eq(0).text();
+
+            feed.items.push(item);
+        });
+    }
+};
+
 function JAtom(xml) {
     this._parse(xml);
 }
@@ -114,6 +172,8 @@ JAtom.prototype = {
 
             item.title = jQuery(this).find('title').eq(0).text();
 
+            item.mediaUrl = jQuery(this).find('thumbnail:first').attr('url');
+
             // Choosing a proper link
             var links = item.link = jQuery(this).find('link');
             if(links.length > 1){
@@ -125,11 +185,12 @@ JAtom.prototype = {
                 }
               }
             }
-            if(!item.link){
+            if(!item.link || typeof(item.link) !== 'string'){
               item.link = jQuery(this).find('link').eq(0).attr('href');
             }
 
             item.description = jQuery(this).find('content').eq(0).text();
+            if(item.description )
             item.updated = jQuery(this).find('updated').eq(0).text();
             item.id = jQuery(this).find('id').eq(0).text();
 
