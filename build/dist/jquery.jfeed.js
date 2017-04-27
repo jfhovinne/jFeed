@@ -139,6 +139,7 @@ YAtom.prototype = {
             
             item.updated = jQuery(this).find('updated').eq(0).text();
             item.id = jQuery(this).find('id').eq(0).text();
+            item.yid = jQuery(this).find('id').eq(0).text();
 
             feed.items.push(item);
         });
