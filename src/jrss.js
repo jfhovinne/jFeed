@@ -30,6 +30,7 @@ JRss.prototype  = {
             item.description = jQuery(this).find('description').eq(0).text();
             item.updated = jQuery(this).find('pubDate').eq(0).text();
             item.id = jQuery(this).find('guid').eq(0).text();
+            item.enclosure = jQuery(this).find('enclosure').attr('url');
             
             feed.items.push(item);
         });
